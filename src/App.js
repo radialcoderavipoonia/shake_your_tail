@@ -1,7 +1,10 @@
 import "./App.css";
 import Features from "./components/Features";
-import { Hero } from "./components/Hero";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import "./App.css";
 import PricingPlan from "./components/PricingPlan";
+import { Hero } from "./components/Hero";
 import yellowCircle from "./assets/images/svg/heroYellowCircle.svg";
 import whiteCircle from "./assets/images/svg/heroWhiteCircle.svg";
 function App() {
@@ -22,6 +25,7 @@ function App() {
           </div>
         </div>
         <Features />
+        <Testonimals />
         <PricingPlan />
       </div>
     </>
