@@ -1,3 +1,6 @@
 .bgHero{
     background-image: url(../src/assets/images/png/heroBg2X.png);
 }
+.shadow_box{
+    box-shadow: 0px 6px 39px 0px rgba(91, 149, 224, 0.13);
+}

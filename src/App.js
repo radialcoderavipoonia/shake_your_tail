@@ -6,6 +6,7 @@ import Testonimals from "./components/Testonimals";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./App.css";
+import PricingPlan from "./components/PricingPlan";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <MyNav />
         <Features />
         <Testonimals />
+        <PricingPlan/>
       </div>
     </>
   );
