@@ -1,10 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: ["./src/**/*.{html,jsx}"],
   theme: {
     extend: {
       fontFamily: {
-        roboto:["font-family: 'Roboto Condensed', sans-serif"],
+        roboto:["'Roboto Condensed', sans-serif"],
         helveticaLight: ["helvetica-light"],
         helveticaBold: ["helvetica-bold"],
         helveticaRegular: ["helvetica-regular"],
