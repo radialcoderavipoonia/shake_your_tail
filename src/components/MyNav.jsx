@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { RxCross1 } from "react-icons/rx";
 import { BiMenu } from "react-icons/bi";
+import navLogo from "../assets/images/svg/navLogo.svg";
 export const MyNav = () => {
   const [head, sethead] = useState(true);
   function showUl() {
@@ -13,72 +14,51 @@ export const MyNav = () => {
   }
   return (
     <>
-      <div className="py-3 md:py-8 bg-black">
-        <div className="container mx-auto">
-          <div className="flex justify-between lg:justify-end">
-            <p className="font-gilroyRegular text-base font-normal lg:hidden block text-white">
-              WordPress Solution
-            </p>
+      <div>
+        <div className="container mx-auto lg:px-16 px-3 mx-w-[1140px] py-[14px]">
+          <div className="flex justify-between items-end lg:items-center">
+            <img src={navLogo} alt="navLogo" className="z-20 relative" />
             <ul
-              className={`flex gap-3 lg:gap-5 items-center justify-center z-10 lg:justify-end flex-col lg:flex-row min-h-full lg:min-h-fit bg-black fixed lg:relative lg:bg-transparent start-[-100%] lg:start-0 top-0 w-full transition-all duration-300 ease-linear ${
+              className={`flex gap-3 lg:gap-5 items-center justify-center z-10 lg:justify-end flex-col lg:flex-row min-h-full lg:min-h-fit bg-[#FFC100] fixed lg:relative lg:bg-transparent start-[-100%] lg:start-0 top-0 w-full transition-all duration-300 ease-linear ${
                 head ? "" : "!left-0"
               }`}
             >
               <li>
                 <a
                   href="#"
-                  className="font-gilroyRegular text-base font-normal text-white"
+                  className=" text-white font-helveticaMedium font-medium text-base"
                 >
-                  WordPress Solution
+                  Home
                 </a>
               </li>
               <li>
                 <a
                   href="#"
-                  className="font-gilroyRegular text-base font-normal text-white"
+                  className=" text-white font-helveticaMedium font-medium text-base"
                 >
-                  Services
+                  Features
                 </a>
               </li>
               <li>
                 <a
                   href="#"
-                  className="font-gilroyRegular text-base font-normal text-white"
+                  className=" text-white font-helveticaMedium font-medium text-base"
                 >
-                  Portfolio
+                  Pricing
                 </a>
               </li>
               <li>
                 <a
                   href="#"
-                  className="font-gilroyRegular text-base font-normal text-white"
+                  className=" text-white font-helveticaMedium font-medium text-base"
                 >
-                  About
-                </a>
-              </li>
-              <li className="lg:ps-[148px]">
-                <a
-                  href="#"
-                  className="font-gilroyRegular text-base font-normal text-white"
-                >
-                  1 888 266-6917 ( <span className="italic">eu</span>
-                  <span className="inter italic">?</span> )
-                </a>
-              </li>
-              <li className="lg:ms-4 bg-[#6022EA] shadow-[0px 4px 20px 0px rgba(96, 34, 234, 0.20)] px-6 py-2 rounded-full">
-                <a
-                  href="#"
-                  className="font-normal font-semibold text-white text-lg font-gilroyRegular"
-                >
-                  Contact Us
+                  Free Trial
                 </a>
               </li>
               <li>
-                <a href="#" className="flex gap-1">
-                  <span className="font-gilroyRegular text-base font-normal text-white">
-                    Eng
-                  </span>
-                </a>
+                <button className=" font-roboto flex items-start justify-center text-xl py-[14px] px-[30px] bg-[#5B95E0] rounded-full text-white">
+                  Sign In
+                </button>
               </li>
             </ul>
             <div onClick={showUl} className="z-20 lg:hidden">

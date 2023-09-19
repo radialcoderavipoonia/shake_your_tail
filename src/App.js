@@ -2,7 +2,7 @@ import "./App.css";
 import { MyNav } from "./components/MyNav";
 function App() {
   return (
-    <div className="App">
+    <div className=" bgHero">
       <MyNav />
     </div>
   );
