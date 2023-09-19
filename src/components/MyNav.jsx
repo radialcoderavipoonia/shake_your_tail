@@ -1,11 +1,75 @@
-import React from 'react'
-
-const MyNav = () => {
+import React, { useState } from "react";
+import { RxCross1 } from "react-icons/rx";
+import { BiMenu } from "react-icons/bi";
+import navLogo from "../assets/images/svg/navLogo.svg";
+export const MyNav = () => {
+  const [head, sethead] = useState(true);
+  function showUl() {
+    sethead(!head);
+  }
+  if (!head) {
+    document.body.classList.add("overflow-hidden");
+  } else {
+    document.body.classList.remove("overflow-hidden");
+  }
   return (
-      <>
-      
-      </>
-  )
-}
-
-export default MyNav;
+    <>
+      <div>
+        <div className="container mx-auto lg:px-16 px-3 mx-w-[1140px] py-[14px]">
+          <div className="flex justify-between items-end lg:items-center">
+            <img src={navLogo} alt="navLogo" className="z-20 relative" />
+            <ul
+              className={`flex gap-3 lg:gap-5 items-center justify-center z-10 lg:justify-end flex-col lg:flex-row min-h-full lg:min-h-fit bg-[#FFC100] fixed lg:relative lg:bg-transparent start-[-100%] lg:start-0 top-0 w-full transition-all duration-300 ease-linear ${
+                head ? "" : "!left-0"
+              }`}
+            >
+              <li>
+                <a
+                  href="#"
+                  className=" text-white font-helveticaMedium font-medium text-base"
+                >
+                  Home
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  className=" text-white font-helveticaMedium font-medium text-base"
+                >
+                  Features
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  className=" text-white font-helveticaMedium font-medium text-base"
+                >
+                  Pricing
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  className=" text-white font-helveticaMedium font-medium text-base"
+                >
+                  Free Trial
+                </a>
+              </li>
+              <li>
+                <button className=" font-roboto flex items-start justify-center text-xl py-[14px] px-[30px] bg-[#5B95E0] rounded-full text-white">
+                  Sign In
+                </button>
+              </li>
+            </ul>
+            <div onClick={showUl} className="z-20 lg:hidden">
+              <h3 className="text-white text-3xl">
+                {head ? <BiMenu /> : <RxCross1 />}
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
+export default MyNav
