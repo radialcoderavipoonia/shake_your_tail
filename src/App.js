@@ -1,11 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
-import Testonimals from './components/Testonimals';
 
+import "./App.css";
+import MyNav from "./components/MyNav";
+import Features from "./components/Features";
+import Testonimals from "./components/Testonimals";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 function App() {
   return (
     <>
-      <Testonimals/>
+      <div className="bg-[#fff]">
+        <MyNav />
+        <Features />
+        <Testonimals/>
+      </div>
     </>
   );
 }
