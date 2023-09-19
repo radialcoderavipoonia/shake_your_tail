@@ -1,3 +1,15 @@
-.bgHero{
-    background-image: url(../src/assets/images/png/heroBg2X.png);
+.bgHero {
+  background-image: url(../src/assets/images/png/heroBg2X.png);
+}
+@media (max-width: 1240px) and (min-width: 1020px) {
+  .bgHero {
+    background-size: 122% 100%;
+    background-position-x: -150px;
+  }
+}
+@media (min-width: 1240px) {
+  .bgHero {
+    background-size: 112% 100%;
+    background-position-x: -150px;
+  }
 }
