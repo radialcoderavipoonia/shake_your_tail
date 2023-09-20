@@ -12,7 +12,7 @@ const Testonimals = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
   };
-
+  const first = React.useRef();
   return (
     <>
       <section className="py-10">
@@ -27,7 +27,7 @@ const Testonimals = () => {
               </div>
             </div>
             <div className="md:w-1/2">
-              <Slider {...settings}>
+              <Slider {...settings} ref={first}>
                 <div className="lg:ps-5">
                   <img
                     className="max-w-[73px]"
@@ -82,13 +82,13 @@ const Testonimals = () => {
               <div className="flex items-start gap-2 mt-8 md:ps-5">
                 <div
                   className="cursor-pointer"
-                  // onClick={() => SlideArrow.current.slickPrev()}
+                  onClick={() => first.current.slickPrev()}
                 >
                   <Left_Arrow />
                 </div>
                 <div
                   className="cursor-pointer"
-                  // onClick={() => SlideArrow.current.slickNext()}
+                  onClick={() => first.current.slickNext()}
                 >
                   <Right_Arrow />
                 </div>
