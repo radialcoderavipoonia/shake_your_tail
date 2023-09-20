@@ -11,6 +11,7 @@ import whiteCircle from "./assets/images/svg/heroWhiteCircle.svg";
 import Faq from "./components/Faq";
 import MyFooter from "./components/MyFooter";
 import { HowIt } from "./components/HowIt";
+import AboutUs from "./components/AboutUs";
 function App() {
   return (
     <>
@@ -33,7 +34,8 @@ function App() {
         <Testonimals />
         {/* <PricingPlan /> */}
         <Faq />
-        <MyFooter/>
+        <MyFooter />
+        <AboutUs />
       </div>
     </>
   );

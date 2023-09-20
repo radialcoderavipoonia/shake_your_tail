@@ -32,27 +32,27 @@ const MyFooter = () => {
                 </h2>
                 <div className="flex mt-6 gap-3">
                   <div className="hover:translate-y-[-12px] transition-all duration-500">
-                    <a href="">
+                    <a target="blank" href="https://www.facebook.com/">
                       <Facebook />
                     </a>
                   </div>
                   <div className="hover:translate-y-[-12px] transition-all duration-500">
-                    <a href="">
+                    <a target="blank" href="https://twitter.com/">
                       <Twitter />
                     </a>
                   </div>
                   <div className="hover:translate-y-[-12px] transition-all duration-500">
-                    <a href="">
+                    <a target="blank" href="https://www.instagram.com/">
                       <Instagram />
                     </a>
                   </div>
                   <div className="hover:translate-y-[-12px] transition-all duration-500">
-                    <a href="">
+                    <a target="blank" href="https://in.linkedin.com/">
                       <Linkdin />
                     </a>
                   </div>
                   <div className="hover:translate-y-[-12px] transition-all duration-500">
-                    <a href="">
+                    <a target="blank" href="https://telegram.org/">
                       <Telegram />
                     </a>
                   </div>
@@ -142,9 +142,11 @@ const MyFooter = () => {
         <div className="pt-10 md:pt-14 lg:pt-[90px]">
           <hr className="border border-[1px] border-slate-300" />
           <p className="text-center py-5 font-helveticaLight font-light text-base text-white">
-            Made with Powered by Petstar -{" "}
+            Made with Powered by Petstar -
             <span>
-              <a href="">DOG GROOMING BUSINESSES & PET SERVICES</a>
+              <a target="blank" href="https://www.petstar.co.uk/#">
+                DOG GROOMING BUSINESSES & PET SERVICES
+              </a>
             </span>
           </p>
         </div>
