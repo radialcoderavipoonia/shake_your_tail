@@ -5,7 +5,7 @@ import customerSmallImg from "../assets/images/png/customer_small_img.png"
 const CustomerExperience = () => {
   return (
     <>
-      <section className="py-12">
+      <section className="py-40">
         <div className="container">
           <div className="flex flex-wrap justify-between items-center">
             <div className="w-2/5">

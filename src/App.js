@@ -28,8 +28,10 @@ function App() {
         </div>
         <MainFeatures />
         <PricingPlan />
-        <CustomerExperience />
-        <Features/>
+        <div className="bg_customer_feature">
+          <CustomerExperience />
+          <Features />
+        </div>
         <Testonimals />
       </div>
     </>
