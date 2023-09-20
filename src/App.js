@@ -8,6 +8,8 @@ import PricingPlan from "./components/PricingPlan";
 import { Hero } from "./components/Hero";
 import yellowCircle from "./assets/images/svg/heroYellowCircle.svg";
 import whiteCircle from "./assets/images/svg/heroWhiteCircle.svg";
+import Faq from "./components/Faq";
+import MyFooter from "./components/MyFooter";
 function App() {
   return (
     <>
@@ -27,7 +29,9 @@ function App() {
         </div>
         <Features />
         <Testonimals />
-        <PricingPlan />
+        {/* <PricingPlan /> */}
+        <Faq />
+        <MyFooter/>
       </div>
     </>
   );

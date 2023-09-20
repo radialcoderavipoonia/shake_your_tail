@@ -20,7 +20,7 @@ const Testonimals = () => {
           <h2 className="text-center font-roboto font-medium text-black text-5xl">
             Testimonial
           </h2>
-          <div className="flex flex-wrap items-center sm:mt-8 md:mt-10 lg:mt-20 pt-5">
+          <div className="md:flex flex-wrap items-center sm:mt-8 md:mt-10 lg:mt-20 pt-5">
             <div className=" md:w-1/2">
               <div className=" lg:translate-x-[-20px] xl:translate-x-[-50px] md:pe-3">
                 <img className="w-full" src={Dog_Img} alt="Dog_Img" />
