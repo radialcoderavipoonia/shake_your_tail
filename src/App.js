@@ -5,8 +5,10 @@ import "slick-carousel/slick/slick-theme.css";
 import "./App.css";
 import PricingPlan from "./components/PricingPlan";
 import { Hero } from "./components/Hero";
+import Testonimals from "./components/Testonimals";
 import yellowCircle from "./assets/images/svg/heroYellowCircle.svg";
 import whiteCircle from "./assets/images/svg/heroWhiteCircle.svg";
+import { HowIt } from "./components/HowIt";
 function App() {
   return (
     <>
@@ -24,6 +26,7 @@ function App() {
             />
           </div>
         </div>
+        <HowIt />
         <Features />
         <Testonimals />
         <PricingPlan />
