@@ -4,7 +4,7 @@ import { About_us } from "./common/Helper";
 const AboutUs = () => {
   return (
     <>
-      <section className=" bg-[#FFC100] py-10 yellow_bg_img">
+      <section className="py-10 yellow_bg_img">
         <div className="container">
           <div className="text-center">
             <h2 className="font-medium font-helveticaMedium text-white text-5xl">
@@ -35,7 +35,7 @@ const AboutUs = () => {
                   <h2 className="font-medium font-roboto text-xl text-black">
                     {aboutK.heading}
                   </h2>
-                  <p className="font-medium font-helveticaMedium text-[#C8D700;] pt-[6px] pb-1">
+                  <p className={`font-medium font-helveticaMedium text-[#C8D700;] pt-[6px] pb-1 ${aboutK.clr}`}>
                     {aboutK.para}
                   </p>
                   <p className="font-light font-helveticaLight text-[#595E62] text-base">

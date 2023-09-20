@@ -31,20 +31,22 @@ function App() {
             />
           </div>
         </div>
+        <MainFeatures />
+        <div className="bg_customer_feature">
+          <CustomerExperience />
+          <Features />
+        </div>
         <HowIt />
-        <Features />
-        <Testonimals />
-        <Faq />
-        <MyFooter />
-        <div className="yellow_bg_img">
+        <PricingPlan />
+        <div className="yellow_bg_img mt-20">
           <DownloadApp />
           <AboutUs />
         </div>
-        <MainFeatures />
-        <PricingPlan />
-        <CustomerExperience />
-        <Features />
         <Testonimals />
+        <Faq />
+        <MyFooter />
+    
+       
       </div>
     </>
   );

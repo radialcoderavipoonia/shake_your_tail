@@ -4,7 +4,7 @@ import { Feature } from "./common/Helper";
 const Features = () => {
   return (
     <>
-      <section className="py-48 bg-blue-400">
+      <section className="pb-36 pt-20">
         <div className="container">
           <h2 className="text-white text-5xl font-roboto font-medium text-center">
             Features
@@ -13,11 +13,11 @@ const Features = () => {
             ShakeYourTail provides your business with the following key features
             to run an successful dog grooming business.
           </p>
-          <div className="py-11 flex flex-wrap justify-between">
+          <div className="py-11 flex flex-wrap justify-center ">
             {Feature.map((All) => {
               return (
                 <div
-                  className="w-[24%] px-5 pt-5 pb-[34px] bg-[#fff] rounded-[14px]"
+                  className="xl:w-[23%] mx-2 lg:w-[31%] sm:w-[48%] mb-8 px-5 pt-5 pb-[34px] bg-[#fff] rounded-[14px]"
                   key={All.id}
                 >
                   <div className="h-100">
