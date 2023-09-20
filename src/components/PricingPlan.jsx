@@ -43,7 +43,7 @@ const PricingPlan = () => {
               return (
                 <div
                   key={plan.id}
-                  className="w-[24%] py-[33px] px-[18px] shadow_pricing rounded-[8px]"
+                  className="lg:w-[24%] sm:w-[47%] w-full mb-4 mx-2 py-[33px] px-[18px] shadow_pricing rounded-[8px]"
                 >
                   <div className="h-full">
                     <p className="text-xl text-[#12191F] font-roboto font-medium ">
