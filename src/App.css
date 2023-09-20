@@ -1,31 +1,34 @@
 .bgHero {
-    background-image: url(../src/assets/images/png/heroBg2X.png);
+  background-image: url(../src/assets/images/png/heroBg2X.png);
 }
 
 .shadow_box {
-    box-shadow: 0px 6px 39px 0px rgba(91, 149, 224, 0.13);
+  box-shadow: 0px 6px 39px 0px rgba(91, 149, 224, 0.13);
 }
 
 .rotate-180 {
-    rotate: 180deg;
+  rotate: 180deg;
 }
 
 .footer_bg_img {
-    background-image: url("./assets/images/png/footer_bg_img.png");
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
+  background-image: url("./assets/images/png/footer_bg_img.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
-
+.afterContent::after {
+  content: "";
+  background-image: url(./assets/images/svg/dotLine.svg);
+}
 @media (max-width: 1240px) and (min-width: 1020px) {
-    .bgHero {
-        background-size: 122% 100%;
-        background-position-x: -150px;
-    }
+  .bgHero {
+    background-size: 122% 100%;
+    background-position-x: -150px;
+  }
 }
 
 @media (min-width: 1240px) {
-    .bgHero {
-        background-size: 112% 100%;
-        background-position-x: -150px;
-    }
+  .bgHero {
+    background-size: 112% 100%;
+    background-position-x: -150px;
+  }
 }
