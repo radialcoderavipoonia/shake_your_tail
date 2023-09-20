@@ -1,17 +1,18 @@
 import "./App.css";
 import Features from "./components/Features";
+import MainFeatures from "./components/MainFeatures";
+import Testonimals from "./components/Testonimals";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import "./App.css";
-import PricingPlan from "./components/PricingPlan";
 import { Hero } from "./components/Hero";
-import Testonimals from "./components/Testonimals";
 import yellowCircle from "./assets/images/svg/heroYellowCircle.svg";
 import whiteCircle from "./assets/images/svg/heroWhiteCircle.svg";
 import Faq from "./components/Faq";
 import MyFooter from "./components/MyFooter";
 import { HowIt } from "./components/HowIt";
 import AboutUs from "./components/AboutUs";
+import PricingPlan from "./components/PricingPlan";
+import CustomerExperience from "./components/CustomerExperience";
 function App() {
   return (
     <>
@@ -36,6 +37,11 @@ function App() {
         <Faq />
         <MyFooter />
         <AboutUs />
+        <MainFeatures />
+        <PricingPlan />
+        <CustomerExperience />
+        <Features/>
+        <Testonimals />
       </div>
     </>
   );
