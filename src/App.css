@@ -11,9 +11,17 @@
 }
 
 .footer_bg_img {
-    background-image: url("./assets/images/png/footer_bg_img.png");
-    background-size: 100% 100%;
+    background-image: url("./assets/images/webp/footer_layer.webp");
+    background-size: cover;
     background-repeat: no-repeat;
+}
+
+@media (min-width:767.98px) {
+    .footer_bg_img {
+        background-image: url("./assets/images/webp/footer_layer.webp");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
 }
 
 @media (max-width: 1240px) and (min-width: 1020px) {
