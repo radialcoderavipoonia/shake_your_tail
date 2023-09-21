@@ -14,6 +14,7 @@ import AboutUs from "./components/AboutUs";
 import PricingPlan from "./components/PricingPlan";
 import CustomerExperience from "./components/CustomerExperience";
 import DownloadApp from "./components/DownloadApp";
+import bg_feature from "./assets/images/png/features_bg.png"
 function App() {
   return (
     <>
@@ -27,12 +28,15 @@ function App() {
             />
             <img
               src={whiteCircle}
-              className="start-0 absolute md:bottom-[33%] bottom-10 h-[140px] sm:block hidden"
+              className="start-0 absolute xl:bottom-[33%] lg:bottom-40 bottom-10 h-[140px] sm:block hidden"
             />
           </div>
         </div>
         <MainFeatures />
-        <div className="bg_customer_feature">
+        <div className="relative">
+          <div className="absolute ">
+            <img src={bg_feature} alt="bg feature" className="h-[1605px] w-[2462px] lg:block hidden" />
+          </div>
           <CustomerExperience />
           <Features />
         </div>
@@ -45,8 +49,6 @@ function App() {
         <Testonimals />
         <Faq />
         <MyFooter />
-    
-       
       </div>
     </>
   );

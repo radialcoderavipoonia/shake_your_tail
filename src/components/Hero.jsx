@@ -5,10 +5,10 @@ export const Hero = () => {
   return (
     <div className="min-h-screen flex flex-col items-center">
       <MyNav />
-      <div className="container mx-auto mt-8 pb-10 flex-1">
+      <div className="container mx-auto mt-8 pb-10 flex-1 relative z-10 flex items-center">
         <div className="flex flex-wrap items-center lg:flex-row flex-col-reverse">
           <div className="lg:w-1/2 w-full flex flex-col lg:items-start items-center lg:pb-20">
-            <p className=" text-[80px] lg:text-start text-center font-roboto font-bold text-white leading-[101%]">
+            <p className=" md:text-[80px] sm:text-[60px] text-[40px] lg:text-start text-center font-roboto font-bold text-white leading-[101%]">
               Smart, Simple Software
             </p>
             <p className="font-helveticaMedium lg:text-start lg:pt-0 pt-3 text-center font-medium text-xl text-white max-w-[510px] lg:max-w-[490px]">

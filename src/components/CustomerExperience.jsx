@@ -5,10 +5,10 @@ import customerSmallImg from "../assets/images/png/customer_small_img.png";
 const CustomerExperience = () => {
   return (
     <>
-      <section className="py-40">
+      <section className="py-40 relative z-10">
         <div className="container">
           <div className="flex flex-wrap justify-between items-center">
-            <div className="w-2/5">
+            <div className="md:w-[40%]">
               <h2 className="text-5xl font-roboto !font-medium text-[#12191F]">
                 Let Your Customer Experience Shine
               </h2>
@@ -21,7 +21,7 @@ const CustomerExperience = () => {
                 Free Trial
               </button>
             </div>
-            <div className="w-1/2">
+            <div className="md:w-[48%]">
               <div className="relative">
                 <img
                   src={customerBigImg}

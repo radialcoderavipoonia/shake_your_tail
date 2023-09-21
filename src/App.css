@@ -1,3 +1,6 @@
+*{
+    scroll-behavior: smooth !important;
+}
 .bgHero {
   background-image: url(../src/assets/images/png/heroBg2X.png);
 }
@@ -31,12 +34,6 @@
   box-shadow: 0px 10px 32px 0px rgba(91, 149, 224, 0.13);
 }
 
-.bg_customer_feature {
-  background-image: url("../src/assets/images/png/features_bg.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
 @media (min-width: 767.98px) {
   .footer_bg_img {
     background-image: url("./assets/images/webp/footer_layer.webp");
@@ -57,10 +54,5 @@
     background-size: 112% 100%;
     background-position-x: -150px;
   }
-  .bg_customer_feature {
-    background-image: url("../src/assets/images/png/features_bg.png");
-    background-size: 100% 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
 }
+

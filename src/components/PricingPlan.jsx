@@ -37,112 +37,118 @@ const PricingPlan = () => {
               $ USD
             </p>
           </div>
-          <div className="flex flex-wrap justify-between pt-[68px]">
-            {Pricing.map((plan) => {
-              return (
-                <div
-                  key={plan.id}
-                  className="lg:w-[23%] sm:w-[47%] w-full mb-4 mx-2 py-[33px] px-[18px] shadow_pricing rounded-[8px]"
-                >
-                  <div className="h-full">
-                    <p className="text-xl text-[#12191F] font-roboto font-medium ">
-                      {plan.heading}
-                    </p>
-                    <p className="pt-2 text-base text-[#12191F] font-helveticaLight text-opacity-70">
-                      {plan.para}
-                    </p>
-                    <p className="pt-6 text-[#12191F] font-roboto font-bold text-[32px]">
-                      {plan.per}
-                      <span className="font-normal text-base">
-                        {plan.month}
-                      </span>
-                    </p>
-                    <div className="pt-6">
-                      <div className="flex items-center">
-                        <img src={plan.single} alt="" />
-                        <p className="ps-2 text-[13px] font-helveticaLight text-[#000] text-opacity-70">
-                          {plan.user}
-                        </p>
+          <div className="overflow-x-scroll xl:overflow-x-auto">
+            <div className="flex flex-wrap justify-between pt-[68px] w-[1140px] ">
+              {Pricing.map((plan) => {
+                return (
+                  <div
+                    key={plan.id}
+                    className="w-[23%] mb-4 mx-2 py-[33px] px-[18px] shadow_pricing rounded-[8px] group"
+                  >
+                    <div className="h-full">
+                      <div className="flex flex-col justify-between h-full">
+                        <div>
+                          <p className="text-xl text-[#12191F] font-roboto font-medium ">
+                            {plan.heading}
+                          </p>
+                          <p className="pt-2 text-base text-[#12191F] font-helveticaLight text-opacity-70">
+                            {plan.para}
+                          </p>
+                          <p className="pt-6 text-[#12191F] font-roboto font-bold text-[32px] group-hover:text-[#5B95E0]">
+                            {plan.per}
+                            <span className="font-normal text-base">
+                              {plan.month}
+                            </span>
+                          </p>
+                          <div className="pt-6">
+                            <div className="flex items-center">
+                              <img src={plan.single} alt="" />
+                              <p className="ps-2 text-[13px] font-helveticaLight text-[#000] text-opacity-70">
+                                {plan.user}
+                              </p>
+                            </div>
+                            <div className="flex items-center pt-3">
+                              <img src={plan.singleresource} alt="" />
+                              <p className="ps-2 text-[13px] font-helveticaLight text-[#000] text-opacity-70">
+                                {plan.resources}
+                              </p>
+                            </div>
+                            <div className="flex items-center pt-3">
+                              <img src={plan.onefifty} alt="" />
+                              <p className="ps-2 text-[13px] font-helveticaLight text-[#000] text-opacity-70">
+                                {plan.clients}
+                              </p>
+                            </div>
+                            <div className="flex items-center pt-3">
+                              <img src={plan.unlimited} alt="" />
+                              <p className="ps-2 text-[13px] font-helveticaLight text-[#000] text-opacity-70">
+                                {plan.appointments}
+                              </p>
+                            </div>
+                            <div className="flex items-center pt-3">
+                              <img src={plan.custom} alt="" />
+                              <p className="ps-2 text-[13px] font-helveticaLight text-[#000] text-opacity-70">
+                                {plan.breeds}
+                              </p>
+                            </div>
+                            <div className="flex items-center pt-3">
+                              <img src={plan.conformation} alt="" />
+                              <p className="ps-2 text-[13px] font-helveticaLight text-[#000] text-opacity-70">
+                                {plan.remainders}
+                              </p>
+                            </div>
+                            <div className="flex items-center pt-3">
+                              <img src={plan.email} alt="" />
+                              <p className="ps-2 text-[13px] font-helveticaLight text-[#000] text-opacity-70">
+                                {plan.marketing}
+                              </p>
+                            </div>
+                            <div className="flex items-center pt-3">
+                              <img src={plan.online} alt="" />
+                              <p className="ps-2 text-[13px] font-helveticaLight text-[#000] text-opacity-70">
+                                {plan.booking}
+                              </p>
+                            </div>
+                            <div className="flex items-center pt-3">
+                              <img src={plan.electronic} alt="" />
+                              <p className="ps-2 text-[13px] font-helveticaLight text-[#000] text-opacity-70">
+                                {plan.contacts}
+                              </p>
+                            </div>
+                            <div className="flex items-center pt-3">
+                              <img src={plan.mobile} alt="" />
+                              <p className="ps-2 text-[13px] font-helveticaLight text-[#000] text-opacity-70">
+                                {plan.app}
+                              </p>
+                            </div>
+                            <div className="flex items-center pt-3">
+                              <img src={plan.rep} alt="" />
+                              <p className="ps-2 text-[13px] font-helveticaLight text-[#000] text-opacity-70">
+                                {plan.reporting}
+                              </p>
+                            </div>
+                            <div className="flex items-center pt-3">
+                              <img src={plan.supp} alt="" />
+                              <p className="ps-2 text-[13px] font-helveticaLight text-[#000] text-opacity-70">
+                                {plan.support}
+                              </p>
+                            </div>
+                          </div>
+                          <p className="pt-4 font-helveticaBold text-[13px] text-[#000]">
+                            {plan.sms}
+                          </p>
+                        </div>
+                        <div className="flex items-end justify-center pt-[33px] mx-4">
+                          <button className="text-xl font-roboto font-regular w-full group-hover:text-[#fff] group-hover:bg-[#5B95E0] group-hover:border-transparent transition-all duration-500 text-[#12191F] rounded-[100px] py-3 px-[30px] bg-transparent border border-[#898C8F]">
+                            Get Started
+                          </button>
+                        </div>
                       </div>
-                      <div className="flex items-center pt-3">
-                        <img src={plan.singleresource} alt="" />
-                        <p className="ps-2 text-[13px] font-helveticaLight text-[#000] text-opacity-70">
-                          {plan.resources}
-                        </p>
-                      </div>
-                      <div className="flex items-center pt-3">
-                        <img src={plan.onefifty} alt="" />
-                        <p className="ps-2 text-[13px] font-helveticaLight text-[#000] text-opacity-70">
-                          {plan.clients}
-                        </p>
-                      </div>
-                      <div className="flex items-center pt-3">
-                        <img src={plan.unlimited} alt="" />
-                        <p className="ps-2 text-[13px] font-helveticaLight text-[#000] text-opacity-70">
-                          {plan.appointments}
-                        </p>
-                      </div>
-                      <div className="flex items-center pt-3">
-                        <img src={plan.custom} alt="" />
-                        <p className="ps-2 text-[13px] font-helveticaLight text-[#000] text-opacity-70">
-                          {plan.breeds}
-                        </p>
-                      </div>
-                      <div className="flex items-center pt-3">
-                        <img src={plan.conformation} alt="" />
-                        <p className="ps-2 text-[13px] font-helveticaLight text-[#000] text-opacity-70">
-                          {plan.remainders}
-                        </p>
-                      </div>
-                      <div className="flex items-center pt-3">
-                        <img src={plan.email} alt="" />
-                        <p className="ps-2 text-[13px] font-helveticaLight text-[#000] text-opacity-70">
-                          {plan.marketing}
-                        </p>
-                      </div>
-                      <div className="flex items-center pt-3">
-                        <img src={plan.online} alt="" />
-                        <p className="ps-2 text-[13px] font-helveticaLight text-[#000] text-opacity-70">
-                          {plan.booking}
-                        </p>
-                      </div>
-                      <div className="flex items-center pt-3">
-                        <img src={plan.electronic} alt="" />
-                        <p className="ps-2 text-[13px] font-helveticaLight text-[#000] text-opacity-70">
-                          {plan.contacts}
-                        </p>
-                      </div>
-                      <div className="flex items-center pt-3">
-                        <img src={plan.mobile} alt="" />
-                        <p className="ps-2 text-[13px] font-helveticaLight text-[#000] text-opacity-70">
-                          {plan.app}
-                        </p>
-                      </div>
-                      <div className="flex items-center pt-3">
-                        <img src={plan.rep} alt="" />
-                        <p className="ps-2 text-[13px] font-helveticaLight text-[#000] text-opacity-70">
-                          {plan.reporting}
-                        </p>
-                      </div>
-                      <div className="flex items-center pt-3">
-                        <img src={plan.supp} alt="" />
-                        <p className="ps-2 text-[13px] font-helveticaLight text-[#000] text-opacity-70">
-                          {plan.support}
-                        </p>
-                      </div>
-                    </div>
-                    <p className="pt-4 font-helveticaBold text-[13px] text-[#000]">
-                      {plan.sms}
-                    </p>
-                    <div className="flex items-end justify-center pt-[33px] mx-4">
-                      <button className="text-xl font-roboto font-regular w-full text-[#12191F] rounded-[100px] py-3 px-[30px]  border border-[#898C8F]">
-                        Get Started
-                      </button>
                     </div>
                   </div>
-                </div>
-              );
-            })}
+                );
+              })}
+            </div>
           </div>
         </div>
       </section>

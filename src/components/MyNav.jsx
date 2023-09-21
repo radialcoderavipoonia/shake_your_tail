@@ -14,7 +14,7 @@ export const MyNav = () => {
   }
   return (
     <>
-      <div className="container flex-grow-0 mx-auto lg:px-16 pb-5 lg:pb-0 px-3 mx-w-[1140px] py-[14px] lg:bg-transparent bg-[#FA6C8F]">
+      <div className="container flex-grow-0 mx-auto pb-5 lg:pb-0 px-3 mx-w-[1140px] py-[14px] lg:bg-transparent bg-[#FA6C8F]">
         <div className="flex justify-between items-end lg:items-center">
           <img src={navLogo} alt="navLogo" className="z-20 relative" />
           <ul
