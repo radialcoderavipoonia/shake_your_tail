@@ -16,10 +16,10 @@ export const Hero = () => {
               appointment confirmations, reminders & more.
             </p>
             <div className="flex items-center mt-[33px] lg:text-start text-center">
-              <button className="font-roboto flex items-start justify-center text-xl py-[14px] px-[30px] bg-[#5B95E0] rounded-full text-white me-3">
+              <button className="font-roboto flex items-start justify-center text-xl py-[14px] px-[30px] bg-[#5B95E0] rounded-full text-white me-3 hover:shadow-[0px_4px_25px_0px_#FFC100] hover:bg-[#FFC100] hover:border border-white">
                 Free Trial
               </button>
-              <button className="font-roboto flex items-start justify-center text-xl py-[14px] px-[30px] bg-[#FFC100] rounded-full text-white shadow-[0px_4px_25px_0px_#FFC100] border border-white">
+              <button className="font-roboto flex items-start justify-center text-xl py-[14px] px-[30px] bg-[#FFC100] rounded-full text-white shadow-[0px_4px_25px_0px_#FFC100] border border-white hover:border-transparent hover:bg-[#5B95E0] transition-all duration-300">
                 Explore More
               </button>
             </div>
