@@ -10,10 +10,10 @@ import {
 const MyFooter = () => {
   return (
     <>
-      <section>
-        <div className="footer_bg_img min-h-[150px] md:min-h-[264px]"></div>
+      <section >
+        <div className="footer_bg_img min-h-[150px] min-h-[140px] md:min-h-[180px] xl:min-h-[264px]"></div>
       </section>
-      <section className="bg-[#5B95E0] mt-[-3px]">
+      <section className="bg-[#5B95E0] mt-[-80px] md:mt-[-3px]">
         <div className="container">
           <div className="flex flex-wrap justify-between">
             <div className="md:w-7/12 lg:w-5/12">

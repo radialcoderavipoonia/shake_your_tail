@@ -91,7 +91,7 @@ const Faq = () => {
                     <p className="text-[#45414E] font-light font-helveticaLight text-base mt-2">
                       Ask our support team
                     </p>
-                    <button className="flex items-center bg-[#5B95E0] ps-[59px] pe-[59px] py-4 rounded-full mt-4">
+                    <button className="flex items-center bg-[#5B95E0] ps-[59px] pe-[59px] py-4 rounded-full mt-4 hover:bg-[#FFC100] transition-all duration-300">
                       <span>
                         <Bulp />
                       </span>
@@ -99,7 +99,7 @@ const Faq = () => {
                         New Idea?
                       </span>
                     </button>
-                    <button className="flex items-center bg-[#5B95E0] ps-[57px] pe-[57px] py-4 rounded-full mt-4">
+                    <button className="flex items-center bg-[#5B95E0] ps-[57px] pe-[57px] py-4 rounded-full mt-4 hover:bg-[#FFC100] transition-all duration-300">
                       <span>
                         <Massage />
                       </span>
