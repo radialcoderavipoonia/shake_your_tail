@@ -16,10 +16,13 @@ import CustomerExperience from "./components/CustomerExperience";
 import DownloadApp from "./components/DownloadApp";
 import bg_feature from "./assets/images/png/features_bg.png"
 import Yellow_bg from "./assets/images/png/yellow_bg_img.png";
+import BackToTop from "./components/BackToTop";
+import { Preloader } from "./components/Preloader";
 function App() {
   return (
     <>
       <div className="bg-[#fff] overflow-hidden">
+        <Preloader />
         <div className="relative bgHero bg-no-repeat lg:bg-transparent bg-[#FFC100]">
           <Hero />
           <div>
@@ -57,6 +60,7 @@ function App() {
         <Testonimals />
         <Faq />
         <MyFooter />
+        <BackToTop />
       </div>
     </>
   );

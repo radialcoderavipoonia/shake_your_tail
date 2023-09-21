@@ -16,9 +16,9 @@ export const MyNav = () => {
     <>
       <div className="container flex-grow-0 mx-auto pb-5 lg:pb-0 px-3 mx-w-[1140px] py-[14px] lg:bg-transparent bg-[#FA6C8F]">
         <div className="flex justify-between items-end lg:items-center">
-          <img src={navLogo} alt="navLogo" className="z-20 relative" />
+          <img src={navLogo} alt="navLogo" className="z-30 relative cursor-pointer" />
           <ul
-            className={`flex gap-3 lg:gap-5 items-center justify-center z-10 lg:justify-end flex-col lg:flex-row min-h-full lg:min-h-fit bg-[#FA6C8F] fixed lg:relative lg:bg-transparent start-[-100%] lg:start-0 top-0 w-full transition-all duration-300 ease-linear ${
+            className={`flex gap-3 lg:gap-5 items-center justify-center z-20 lg:justify-end flex-col lg:flex-row min-h-full lg:min-h-fit bg-[#FA6C8F] fixed lg:relative lg:bg-transparent start-[-100%] lg:start-0 top-0 w-full transition-all duration-300 ease-linear ${
               head ? "" : "!left-0"
             }`}
           >
