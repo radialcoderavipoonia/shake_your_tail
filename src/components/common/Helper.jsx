@@ -1,8 +1,12 @@
 import click from "../../assets/images/svg/check_pricing_plan.svg";
-import schedule from "../../assets/images/svg/features_schedule.svg"
-import clients from "../../assets/images/svg/features_clients.svg"
-import report from "../../assets/images/svg/features_report.svg"
-import services from "../../assets/images/svg/features_service.svg"
+import schedule from "../../assets/images/svg/features_schedule.svg";
+import clients from "../../assets/images/svg/features_clients.svg";
+import report from "../../assets/images/svg/features_report.svg";
+import services from "../../assets/images/svg/features_service.svg";
+import About_1 from "../../assets/images/webp/about_1st.webp";
+import About_2 from "../../assets/images/webp/about_2nd.webp";
+import About_3 from "../../assets/images/webp/about_3rd.webp";
+import About_4 from "../../assets/images/webp/about_4th.webp";
 export const Pricing = [
   {
     id: 1,
@@ -120,26 +124,59 @@ export const Feature = [
   {
     id: 1,
     heading: "Schedule",
-    para: "Powerful and easy to use, book appointments for your team members and view a colour coded schedule, at a glance.", 
-    img:schedule,
-    
+    para: "Powerful and easy to use, book appointments for your team members and view a colour coded schedule, at a glance.",
+    img: schedule,
   },
   {
     id: 2,
     heading: "Clients & Pets",
     para: "Managing your Clients is effortless; Record Client details, view appointment history, breed, photos, medical notes, vet contact, groom note Client loyalty and more.",
-    img:clients,
+    img: clients,
   },
   {
     id: 3,
     heading: "Reports",
     para: "Report and export client details, appointments, marketing, no shows and more..",
-    img:report,
+    img: report,
   },
   {
     id: 4,
     heading: "Services",
     para: "Add custom services to appointments, supplementary treatments, collection and drop offs, promotion packages and more.",
-    img:services,
+    img: services,
+  },
+];
+export const About_us = [
+  {
+    id: 1,
+    img: About_1,
+
+    heading: "Founded",
+    para: "Dec 2009",
+    p: "Founded in 2009 to support pet grooming industry to reduce the the administration burden of running a business.",
+  },
+  {
+    id: 2,
+    img: About_2,
+    clr: "text-[#9955AE]",
+    heading: "Product Launch",
+    para: "July 2010",
+    p: "We released our first product 'Border' and made our first sales into 3 different countries.",
+  },
+  {
+    id: 3,
+    img: About_3,
+    clr:"text-[#EC8772]",
+    heading: "Pet Schedule Released",
+    para: "Dec 2012",
+    p: "Our new Web based platform was created and released.",
+  },
+  {
+    id: 4,
+    img: About_4,
+    clr:"text-[#74BBBF]",
+    heading: "Subscription Service",
+    para: "Aug 2013",
+    p: "We released our first premier subscription to the market",
   },
 ];

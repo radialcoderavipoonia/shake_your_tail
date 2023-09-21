@@ -13,6 +13,7 @@ import { HowIt } from "./components/HowIt";
 import AboutUs from "./components/AboutUs";
 import PricingPlan from "./components/PricingPlan";
 import CustomerExperience from "./components/CustomerExperience";
+import DownloadApp from "./components/DownloadApp";
 function App() {
   return (
     <>
@@ -30,20 +31,22 @@ function App() {
             />
           </div>
         </div>
-        <HowIt />
-        <Features />
-        <Testonimals />
-        {/* <PricingPlan /> */}
-        <Faq />
-        <MyFooter />
-        <AboutUs />
         <MainFeatures />
-        <PricingPlan />
         <div className="bg_customer_feature">
           <CustomerExperience />
           <Features />
         </div>
+        <HowIt />
+        <PricingPlan />
+        <div className="yellow_bg_img mt-20">
+          <DownloadApp />
+          <AboutUs />
+        </div>
         <Testonimals />
+        <Faq />
+        <MyFooter />
+    
+       
       </div>
     </>
   );

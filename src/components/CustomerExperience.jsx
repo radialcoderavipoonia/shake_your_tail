@@ -1,6 +1,6 @@
-import React from 'react'
-import customerBigImg from "../assets/images/png/customer_big_img.png"
-import customerSmallImg from "../assets/images/png/customer_small_img.png"
+import React from "react";
+import customerBigImg from "../assets/images/png/customer_big_img.png";
+import customerSmallImg from "../assets/images/png/customer_small_img.png";
 
 const CustomerExperience = () => {
   return (
@@ -17,23 +17,31 @@ const CustomerExperience = () => {
                 booking history, partner this with your own Loyalty<br></br>{" "}
                 program.
               </p>
-              <button className="mt-[30px] text-white font-roboto font-regular text-xl bg-[#FFC100] px-[30px] py-[14px] rounded-[100px]">
+              <button className="mt-[30px] text-white font-roboto font-regular text-xl bg-[#FFC100] px-[30px] py-[14px] rounded-[100px] hover:bg-[#5B95E0] transition-all duration-300">
                 Free Trial
               </button>
-                      </div>
-                      <div className='w-1/2'>
-                          <div className='relative'>
-                              <img src={customerBigImg} alt="customer big image" className='w-100' />
-                              <div className='absolute bottom-[-15px] right-[-50px]'>
-                                  <img src={customerSmallImg} alt="customer small image" className='w-[192px] h-[152px]' />
-                              </div>
-                          </div>
-                      </div>
+            </div>
+            <div className="w-1/2">
+              <div className="relative">
+                <img
+                  src={customerBigImg}
+                  alt="customer big image"
+                  className="w-100"
+                />
+                <div className="absolute bottom-[-15px] right-[-50px]">
+                  <img
+                    src={customerSmallImg}
+                    alt="customer small image"
+                    className="w-[192px] h-[152px]"
+                  />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
     </>
   );
-}
+};
 
 export default CustomerExperience;
