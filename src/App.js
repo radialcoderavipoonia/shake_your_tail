@@ -64,7 +64,7 @@ function App() {
         <Testonimals />
         <Faq />
         <MyFooter />
-        <BackToTop />
+        <BackToTop/>
       </div>
     </>
   );
