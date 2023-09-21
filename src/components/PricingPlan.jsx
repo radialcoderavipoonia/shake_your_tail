@@ -8,9 +8,9 @@ const PricingPlan = () => {
   };
   return (
     <>
-      <section className="py-12">
+      <section className="py-14"id="pricing">
         <div className="container">
-          <h2 className="text-5xl font-roboto font-medium text-[#12191F] text-center">
+          <h2 className="text-4xl md:text-5xl font-roboto font-medium text-[#12191F] text-center">
             Pricing Plan
           </h2>
           <p className="pt-[10px] text-center text-base font-helveticaLight text-[#12191F]">
@@ -38,7 +38,7 @@ const PricingPlan = () => {
             </p>
           </div>
           <div className="overflow-x-scroll xl:overflow-x-auto">
-            <div className="flex flex-wrap justify-between pt-[68px] w-[1140px] ">
+            <div className="flex flex-wrap justify-between pt-10 sm:pt-14 md:pt-[68px] w-[1140px] ">
               {Pricing.map((plan) => {
                 return (
                   <div

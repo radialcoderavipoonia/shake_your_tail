@@ -5,12 +5,12 @@ import app_store from "../assets/images/webp/app_store.webp";
 const DownloadApp = () => {
   return (
     <>
-      <section className="pt-16 lg:pt-[135px] bg-[#FFC100] lg:bg-transparent">
+      <section className="pt-12 lg:pt-16 lg:pt-[135px] bg-[#FFC100] lg:bg-transparent">
         <div className="container">
           <div className="flex flex-wrap justify-between items-center">
-            <div className="md:w-2/5 z-10">
+            <div className="md:w-2/5 z-10 w-full">
               <div className="text-center md:text-start">
-                <h2 className="text-5xl font-roboto !font-medium text-white">
+                <h2 className="text-3xl sm:text-4xl md:text-5xl font-roboto !font-medium text-white">
                   Download App
                 </h2>
                 <p className="text-base pt-3 font-helveticaLight text-[#FFF3CC]">

@@ -4,7 +4,7 @@ import { Bulp, Massage } from "./common/Icons";
 const Faq = () => {
   return (
     <>
-      <section className="py-10">
+      <section className="py-12 lg:mt-20 xl:mt-[120px]"id="faq">
         <div className="container">
           <h2 className="font-medium text-5xl font-roboto text-[#12191F] text-center lg:text-start">
             FAQ’s

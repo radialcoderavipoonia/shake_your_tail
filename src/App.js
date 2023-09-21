@@ -14,7 +14,7 @@ import AboutUs from "./components/AboutUs";
 import PricingPlan from "./components/PricingPlan";
 import CustomerExperience from "./components/CustomerExperience";
 import DownloadApp from "./components/DownloadApp";
-import bg_feature from "./assets/images/png/features_bg.png"
+import bg_feature from "./assets/images/png/features_bg.png";
 import Yellow_bg from "./assets/images/png/yellow_bg_img.png";
 import BackToTop from "./components/BackToTop";
 import { Preloader } from "./components/Preloader";
@@ -39,7 +39,11 @@ function App() {
         <MainFeatures />
         <div className="relative">
           <div className="absolute ">
-            <img src={bg_feature} alt="bg feature" className="h-[1605px] w-[2462px] lg:block hidden" />
+            <img
+              src={bg_feature}
+              alt="bg feature"
+              className="h-[1605px] w-[2462px] lg:block hidden"
+            />
           </div>
           <CustomerExperience />
           <Features />
@@ -49,7 +53,7 @@ function App() {
         <div className="relative mt-5 lg:mt-20">
           <div className="absolute lg:block hidden">
             <img
-              className="w-[2452px] lg:h-[1340px] xl:h-[1494px]"
+              className="w-[2452px] lg:h-[1235px] xl:h-[1360px] "
               src={Yellow_bg}
               alt="Yellow_bg"
             />
