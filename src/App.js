@@ -15,6 +15,7 @@ import PricingPlan from "./components/PricingPlan";
 import CustomerExperience from "./components/CustomerExperience";
 import DownloadApp from "./components/DownloadApp";
 import bg_feature from "./assets/images/png/features_bg.png"
+import Yellow_bg from "./assets/images/png/yellow_bg_img.png";
 function App() {
   return (
     <>
@@ -42,7 +43,14 @@ function App() {
         </div>
         <HowIt />
         <PricingPlan />
-        <div className="yellow_bg_img mt-20">
+        <div className="relative mt-5 lg:mt-20">
+          <div className="absolute lg:block hidden">
+            <img
+              className="w-[2452px] lg:h-[1340px] xl:h-[1494px]"
+              src={Yellow_bg}
+              alt="Yellow_bg"
+            />
+          </div>
           <DownloadApp />
           <AboutUs />
         </div>

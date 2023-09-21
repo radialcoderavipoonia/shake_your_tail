@@ -20,14 +20,8 @@
 }
 
 .afterContent::after {
-  content: "";
-  background-image: url(./assets/images/svg/dotLine.svg);
-}
-
-.yellow_bg_img {
-  background-image: url(./assets/images/png/yellow_bg_img.png);
-  background-size: cover;
-  background-repeat: no-repeat;
+    content: "";
+    background-image: url(./assets/images/svg/dotLine.svg);
 }
 
 .shadow_pricing {
@@ -42,6 +36,21 @@
   }
 }
 
+@media (min-width: 767.98px) {
+    .footer_bg_img {
+        background-image: url("./assets/images/webp/footer_layer.webp");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+@media (min-width: 1023.98px) {
+    .footer_bg_img {
+        background-image: url("./assets/images/webp/footer_layer.webp");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+}
+
 @media (max-width: 1240px) and (min-width: 1020px) {
   .bgHero {
     background-size: 122% 100%;
@@ -50,9 +59,9 @@
 }
 
 @media (min-width: 1240px) {
-  .bgHero {
-    background-size: 112% 100%;
-    background-position-x: -150px;
-  }
-}
+    .bgHero {
+        background-size: 112% 100%;
+        background-position-x: -150px;
+    }
 
+}
