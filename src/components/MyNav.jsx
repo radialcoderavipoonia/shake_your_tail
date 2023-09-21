@@ -32,7 +32,7 @@ export const MyNav = () => {
             </li>
             <li>
               <a
-                href="#"
+                href="#features"
                 className=" text-white font-helveticaMedium font-medium text-base"
               >
                 Features
@@ -40,7 +40,7 @@ export const MyNav = () => {
             </li>
             <li>
               <a
-                href="#"
+                href="#pricing"
                 className=" text-white font-helveticaMedium font-medium text-base"
               >
                 Pricing
@@ -48,7 +48,7 @@ export const MyNav = () => {
             </li>
             <li>
               <a
-                href="#"
+                href="#trial"
                 className=" text-white font-helveticaMedium font-medium text-base"
               >
                 Free Trial

@@ -7,15 +7,17 @@ import custom from "../assets/images/svg/custom3.svg";
 import tick from "../assets/images/svg/tick4.svg";
 export const HowIt = () => {
   return (
-    <div>
+    <div className="py-14 lg:pt-20 xl:pt-40" id="hows">
       <div className="container">
-        <p className=" text-[#12191F] text-[48px] font-roboto font-medium">
-          How It Work
-        </p>
-        <p className="max-w-[585px] text-base font-light font-helveticaLight text-[#12191F]">
-          ShakeYourTail is an online scheduling and CRM service & is super easy
-          to use, you can trial our premier service free for 30 days.
-        </p>
+        <div className="text-center md:text-start">
+          <p className=" text-[#12191F] text-4xl lg:text-[48px] font-roboto font-medium">
+            How It Work
+          </p>
+          <p className="max-w-[585px] pt-2 text-base font-light font-helveticaLight text-[#12191F] mx-auto md:mx-0">
+            ShakeYourTail is an online scheduling and CRM service & is super easy
+            to use, you can trial our premier service free for 30 days.
+          </p>
+        </div>
         <div className="mt-[53px] flex flex-wrap">
           <img
             src={linerLine}
@@ -25,7 +27,7 @@ export const HowIt = () => {
           <img
             src={linerLine2}
             alt="linerLine"
-            className="md:w-full relative z-10 w-1/12 md:hidden block h-[870px]"
+            className="md:w-full relative z-10 w-1/12 md:hidden block h-[650px] md:h-[870px]"
           />
           <div className="flex flex-wrap justify-between md:w-full w-10/12">
             {/* 01 */}

@@ -10,7 +10,7 @@ import {
 const MyFooter = () => {
   return (
     <>
-      <section >
+      <section className="pt-4 lg:pt-0">
         <div className="footer_bg_img min-h-[150px] min-h-[140px] md:min-h-[180px] xl:min-h-[264px]"></div>
       </section>
       <section className="bg-[#5B95E0] mt-[-80px] md:mt-[-3px]">
@@ -67,7 +67,7 @@ const MyFooter = () => {
                   </li>
                   <li className="pt-4">
                     <a
-                      href="#"
+                      href="#about"
                       className="text-[#DEEAF9] font-light font-helveticaLight text-base"
                     >
                       About Us
@@ -75,7 +75,7 @@ const MyFooter = () => {
                   </li>
                   <li className="pt-2">
                     <a
-                      href="#"
+                      href="#features"
                       className="text-[#DEEAF9] font-light font-helveticaLight text-base"
                     >
                       Features
@@ -83,7 +83,7 @@ const MyFooter = () => {
                   </li>
                   <li className="pt-2">
                     <a
-                      href="#"
+                      href="#pricing"
                       className="text-[#DEEAF9] font-light font-helveticaLight text-base"
                     >
                       Pricing
@@ -91,7 +91,7 @@ const MyFooter = () => {
                   </li>
                   <li className="pt-2">
                     <a
-                      href="#"
+                      href="#hows"
                       className="text-[#DEEAF9] font-light font-helveticaLight text-base"
                     >
                       How It Work
@@ -99,7 +99,7 @@ const MyFooter = () => {
                   </li>
                   <li className="pt-2">
                     <a
-                      href="#"
+                      href="#new_features"
                       className="text-[#DEEAF9] font-light font-helveticaLight text-base"
                     >
                       New Features
@@ -112,7 +112,7 @@ const MyFooter = () => {
                   </li>
                   <li className="pt-4">
                     <a
-                      href="#"
+                      href="#testimonials"
                       className="text-[#DEEAF9] font-light font-helveticaLight text-base"
                     >
                       Testimonials
@@ -120,7 +120,7 @@ const MyFooter = () => {
                   </li>
                   <li className="pt-2">
                     <a
-                      href="#"
+                      href="#faq"
                       className="text-[#DEEAF9] font-light font-helveticaLight text-base"
                     >
                       FAQs
@@ -128,7 +128,7 @@ const MyFooter = () => {
                   </li>
                   <li className="pt-2">
                     <a
-                      href="#"
+                      href="#contact"
                       className="text-[#DEEAF9] font-light font-helveticaLight text-base"
                     >
                       Contact Us

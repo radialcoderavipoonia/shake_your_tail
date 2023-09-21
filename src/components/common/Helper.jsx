@@ -7,6 +7,7 @@ import About_1 from "../../assets/images/webp/about_1st.webp";
 import About_2 from "../../assets/images/webp/about_2nd.webp";
 import About_3 from "../../assets/images/webp/about_3rd.webp";
 import About_4 from "../../assets/images/webp/about_4th.webp";
+import bottom_img from "../../assets/images/svg/down_img_box.svg";
 export const Pricing = [
   {
     id: 1,
@@ -162,11 +163,12 @@ export const About_us = [
     heading: "Product Launch",
     para: "July 2010",
     p: "We released our first product 'Border' and made our first sales into 3 different countries.",
+    bootom: bottom_img,
   },
   {
     id: 3,
     img: About_3,
-    clr:"text-[#EC8772]",
+    clr: "text-[#EC8772]",
     heading: "Pet Schedule Released",
     para: "Dec 2012",
     p: "Our new Web based platform was created and released.",
@@ -174,7 +176,7 @@ export const About_us = [
   {
     id: 4,
     img: About_4,
-    clr:"text-[#74BBBF]",
+    clr: "text-[#74BBBF]",
     heading: "Subscription Service",
     para: "Aug 2013",
     p: "We released our first premier subscription to the market",
