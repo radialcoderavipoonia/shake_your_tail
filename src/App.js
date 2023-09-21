@@ -30,20 +30,17 @@ function App() {
             />
           </div>
         </div>
-        <HowIt />
-        <Features />
-        <Testonimals />
-        {/* <PricingPlan /> */}
-        <Faq />
-        <MyFooter />
-        <AboutUs />
         <MainFeatures />
-        <PricingPlan />
         <div className="bg_customer_feature">
           <CustomerExperience />
           <Features />
         </div>
+        <HowIt />
+        <PricingPlan />
+        <AboutUs />
         <Testonimals />
+        <Faq />
+        <MyFooter />
       </div>
     </>
   );
