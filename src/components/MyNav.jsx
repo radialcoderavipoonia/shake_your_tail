@@ -36,24 +36,24 @@ export const MyNav = () => {
             </li>
             <li>
               <a
-                href="#"
                 className=" text-white font-helveticaMedium font-medium text-base after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[3px] after:bg-white after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full"
+                href="#features"
               >
                 Features
               </a>
             </li>
             <li>
               <a
-                href="#"
                 className=" text-white font-helveticaMedium font-medium text-base after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[3px] after:bg-white after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full"
+                href="#pricing"
               >
                 Pricing
               </a>
             </li>
             <li>
               <a
-                href="#"
                 className=" text-white font-helveticaMedium font-medium text-base after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[3px] after:bg-white after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full"
+                href="#trial"
               >
                 Free Trial
               </a>

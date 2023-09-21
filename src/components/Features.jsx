@@ -4,20 +4,20 @@ import { Feature } from "./common/Helper";
 const Features = () => {
   return (
     <>
-      <section className="pb-36 pt-20">
+      <section className="pb-14 lg:pb-36 xl:pt-44 lg:pt-0 pt-12 relative z-10 bg-[#5B95E0] lg:bg-transparent"id="features">
         <div className="container">
-          <h2 className="text-white text-5xl font-roboto font-medium text-center">
+          <h2 className="text-white text-3xl md:text-4xl lg:text-5xl font-roboto font-medium text-center">
             Features
           </h2>
           <p className="pt-[10px] max-w-[555px] text-center mx-auto text-base text-white font-helveticaLight">
             ShakeYourTail provides your business with the following key features
             to run an successful dog grooming business.
           </p>
-          <div className="py-11 flex flex-wrap justify-center ">
+          <div className="pt-10 lg:py-11 flex flex-wrap justify-center ">
             {Feature.map((All) => {
               return (
                 <div
-                  className="xl:w-[23%] mx-2 lg:w-[31%] sm:w-[48%] mb-8 px-5 pt-5 pb-[34px] bg-[#fff] rounded-[14px]"
+                  className="lg:w-[23%] mx-2 sm:w-[46%]  mb-8 px-5 pt-5 pb-[34px] bg-[#fff] rounded-[14px]"
                   key={All.id}
                 >
                   <div className="h-100">
@@ -34,7 +34,7 @@ const Features = () => {
             })}
           </div>
           <div className="flex justify-center items-center flex-wrap">
-            <button className="mt-[19px] text-white font-roboto font-regular text-xl bg-[#FFC100] px-[30px] py-[14px] rounded-[100px] hover:bg-white transition-all duration-300 hover:text-[#FFC100]">
+            <button className="md:mt-[19px] text-white font-roboto font-regular text-xl md:text-xl bg-[#FFC100] px-[30px] py-[14px] rounded-[100px] hover:bg-white transition-all duration-300 hover:text-[#FFC100]">
               View All Features
             </button>
           </div>
