@@ -1,3 +1,6 @@
+*{
+  scroll-behavior:smooth ;
+}
 .bgHero {
   background-image: url(../src/assets/images/png/heroBg2X.png);
 }

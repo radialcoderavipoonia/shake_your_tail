@@ -31,27 +31,27 @@ const MyFooter = () => {
                   nisi dignissim nulla.
                 </h2>
                 <div className="flex mt-6 gap-3">
-                  <div className="hover:translate-y-[-12px] transition-all duration-500">
+                  <div className="hover:translate-y-[-6px] transition-all duration-500">
                     <a target="blank" href="https://www.facebook.com/">
                       <Facebook />
                     </a>
                   </div>
-                  <div className="hover:translate-y-[-12px] transition-all duration-500">
+                  <div className="hover:translate-y-[-6px] transition-all duration-500">
                     <a target="blank" href="https://twitter.com/">
                       <Twitter />
                     </a>
                   </div>
-                  <div className="hover:translate-y-[-12px] transition-all duration-500">
+                  <div className="hover:translate-y-[-6px] transition-all duration-500">
                     <a target="blank" href="https://www.instagram.com/">
                       <Instagram />
                     </a>
                   </div>
-                  <div className="hover:translate-y-[-12px] transition-all duration-500">
+                  <div className="hover:translate-y-[-6px] transition-all duration-500">
                     <a target="blank" href="https://in.linkedin.com/">
                       <Linkdin />
                     </a>
                   </div>
-                  <div className="hover:translate-y-[-12px] transition-all duration-500">
+                  <div className="hover:translate-y-[-6px] transition-all duration-500">
                     <a target="blank" href="https://telegram.org/">
                       <Telegram />
                     </a>
