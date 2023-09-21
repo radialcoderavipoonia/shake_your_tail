@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-// import backToTop from "../assets/images/svg/backToTop.svg";
-import backToTop from "../assets/images/webp/backToTop.webp";
+import backToTop from "../assets/images/svg/backToTop.svg";
 const BackToTop = () => {
   const [first, setfirst] = useState(true);
   const onTop = () => {
@@ -15,18 +14,9 @@ const BackToTop = () => {
   });
   return (
     <section>
-      <div className=" container relative z-10">
+      <div className="relative z-10 mt-[-20px]">
         <div className="z-10 h-[20px] w-[20px]">
-          {/* <button
-            onClick={() => onTop()}
-            className={
-              first
-                ? "hidden text-white me-3 hover:shadow-[0px_4px_25px_0px_#FFC100] hover:bg-[#FFC100] hover:border hover:border-white border border-transparent py-[14px] px-[30px] bg-[#5B95E0] rounded-full font-helveticaRegular font-bold text-xl sm:end-[40px] end-1 sm:bottom-[40px] bottom-1 fixed"
-                : "block text-white me-3 hover:shadow-[0px_4px_25px_0px_#FFC100] hover:bg-[#FFC100] hover:border hover:border-white border border-transparent py-[14px] px-[30px] bg-[#5B95E0] rounded-full font-helveticaRegular font-bold text-xl sm:end-[40px] end-1 sm:bottom-[40px] bottom-1 fixed"
-            }
-          >
-            Top
-          </button> */}
+
           <img
             src={backToTop}
             height={40}
@@ -34,7 +24,7 @@ const BackToTop = () => {
             className={
               first
                 ? "hidden"
-                : "block sm:end-[40px] !h-[60px] rotate-[-90deg] cursor-pointer end-1 sm:bottom-[40px] bottom-1 fixed hover:scale-90 transition-all ease-linear"
+                : "block sm:end-[40px] !h-[60px] rotate-[-180deg] cursor-pointer end-1 sm:bottom-[40px] bottom-1 fixed hover:scale-90 transition-all ease-linear"
             }
           />
         </div>
