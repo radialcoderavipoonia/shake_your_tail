@@ -4,7 +4,7 @@ import { Feature } from "./common/Helper";
 const Features = () => {
   return (
     <>
-      <section className="pb-14 lg:pb-36 pt-12 lg:pt-20 relative z-10 bg-[#5B95E0] lg:bg-transparent"id="features">
+      <section className="pb-14 lg:pb-36 xl:pt-44 lg:pt-0 pt-12 relative z-10 bg-[#5B95E0] lg:bg-transparent"id="features">
         <div className="container">
           <h2 className="text-white text-3xl md:text-4xl lg:text-5xl font-roboto font-medium text-center">
             Features

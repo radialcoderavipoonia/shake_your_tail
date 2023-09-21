@@ -42,7 +42,7 @@ function App() {
             <img
               src={bg_feature}
               alt="bg feature"
-              className="h-[1605px] w-[2462px] lg:block hidden"
+              className="xl:h-[1605px] !h-[1440px] w-[2462px] lg:block hidden"
             />
           </div>
           <CustomerExperience />
