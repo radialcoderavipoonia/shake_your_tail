@@ -5,7 +5,7 @@ const AboutUs = () => {
   return (
     <>
       <section
-        className="pt-10 sm:pt-16 lg:pt-10 relative z-10 bg-[#FFC100] lg:bg-transparent mt-[-3px]"
+        className="pt-5 md:pt-14 lg:pt-0 relative z-10 bg-[#FFC100] lg:bg-transparent mt-[-3px]"
         id="about"
       >
         <div className="container">
@@ -27,7 +27,7 @@ const AboutUs = () => {
             {About_us.map((aboutK) => {
               return (
                 <div
-                  className="w-[90%] mx-auto lg:mt-0 sm:mx-0 sm:w-[48%] md:w-[32%] lg:w-[24%] px-5 pt-5 pb-[34px] bg-[#fff] rounded-[14px] relative"
+                  className="w-[90%] mx-auto lg:mt-0 sm:mx-0 sm:w-[48%] md:w-[32%] lg:w-[24%] px-5 pt-5 pb-[34px] bg-[#fff] rounded-[14px] relative min-h-full"
                   key={aboutK.id}
                 >
                   <div
