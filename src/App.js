@@ -16,6 +16,7 @@ import CustomerExperience from "./components/CustomerExperience";
 import DownloadApp from "./components/DownloadApp";
 import BackToTop from "./components/BackToTop";
 import { Preloader } from "./components/Preloader";
+import Yellow_bg from "./assets/images/png/yellow_bg_img.png";
 function App() {
   return (
     <>
@@ -41,11 +42,20 @@ function App() {
         </div>
         <HowIt />
         <PricingPlan />
-        <AboutUs />
+        <div className="relative mt-5 lg:mt-20">
+          <div className="absolute lg:block hidden">
+            <img
+              className="w-[2452px] lg:h-[1340px] xl:h-[1494px]"
+              src={Yellow_bg}
+              alt="Yellow_bg"
+            />
+          </div>
+          <DownloadApp />
+          <AboutUs />
+        </div>
         <Testonimals />
         <Faq />
         <MyFooter />
-        <BackToTop />
       </div>
     </>
   );
