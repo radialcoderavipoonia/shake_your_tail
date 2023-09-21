@@ -11,19 +11,17 @@
 }
 
 .footer_bg_img {
-    background-image: url("./assets/images/webp/footer_layer.webp");
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.yellow_bg_img {
-    background-image: url(./assets/images/png/yellow_bg_img.png);
+    background-image: url("./assets/images/png/footer_bg_img.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    z-index: 2;
 }
 
-@media (min-width:767.98px) {
+.afterContent::after {
+    content: "";
+    background-image: url(./assets/images/svg/dotLine.svg);
+}
+
+@media (min-width: 767.98px) {
     .footer_bg_img {
         background-image: url("./assets/images/webp/footer_layer.webp");
         background-size: 100% 100%;
@@ -31,15 +29,23 @@
     }
 }
 
-.shadow_pricing{
+.yellow_bg_img {
+    background-image: url(./assets/images/png/yellow_bg_img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.shadow_pricing {
     box-shadow: 0px 10px 32px 0px rgba(91, 149, 224, 0.13);
 }
-.bg_customer_feature{
-  background-image: url("../src/assets/images/png/features_bg.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+
+.bg_customer_feature {
+    background-image: url("../src/assets/images/png/features_bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
+
 @media (max-width: 1240px) and (min-width: 1020px) {
     .bgHero {
         background-size: 122% 100%;
@@ -48,14 +54,8 @@
 }
 
 @media (min-width: 1240px) {
-  .bgHero {
-    background-size: 112% 100%;
-    background-position-x: -150px;
-  }
-  .bg_customer_feature{
-  background-image: url("../src/assets/images/png/features_bg.png");
-  background-size: 100% 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-}
+    .bgHero {
+        background-size: 112% 100%;
+        background-position-x: -150px;
+    }
 }

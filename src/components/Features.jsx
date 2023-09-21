@@ -34,7 +34,7 @@ const Features = () => {
             })}
           </div>
           <div className="flex justify-center items-center flex-wrap">
-            <button className="mt-[19px] text-white font-roboto font-regular text-xl bg-[#FFC100] px-[30px] py-[14px] rounded-[100px]">
+            <button className="mt-[19px] text-white font-roboto font-regular text-xl bg-[#FFC100] px-[30px] py-[14px] rounded-[100px] hover:bg-white transition-all duration-300 hover:text-[#FFC100]">
               View All Features
             </button>
           </div>

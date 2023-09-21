@@ -5,7 +5,7 @@ import app_store from "../assets/images/webp/app_store.webp";
 const DownloadApp = () => {
   return (
     <>
-      <section className="pt-[115px] z-50">
+      <section className="pt-[115px]">
         <div className="container">
           <div className="flex flex-wrap justify-between items-center">
             <div className="w-2/5">
@@ -17,7 +17,7 @@ const DownloadApp = () => {
                 appointments and client on the go?
               </p>
               <p className="text-base font-helveticaLight text-[#FFF3CC]">
-                Try our app, available to Premier or Premier Plus{" "}
+                Try our app, available to Premier or Premier Plus
                 <span className="md:block"></span> subscribers.
               </p>
               <div className="flex items-center mt-7 gap-4">
@@ -42,8 +42,8 @@ const DownloadApp = () => {
               </div>
             </div>
             <div className="w-1/2">
-              <div className="relative ">
-                <img src={Mobile_img} alt="Mobile_img" className="w-100" />
+              <div className="">
+                <img src={Mobile_img} alt="Mobile_img" className="w-100"/>
               </div>
             </div>
           </div>

@@ -17,7 +17,7 @@ const CustomerExperience = () => {
                 booking history, partner this with your own Loyalty<br></br>{" "}
                 program.
               </p>
-              <button className="mt-[30px] text-white font-roboto font-regular text-xl bg-[#FFC100] px-[30px] py-[14px] rounded-[100px]">
+              <button className="mt-[30px] text-white font-roboto font-regular text-xl bg-[#FFC100] px-[30px] py-[14px] rounded-[100px] hover:bg-[#5B95E0] transition-all duration-300">
                 Free Trial
               </button>
             </div>
