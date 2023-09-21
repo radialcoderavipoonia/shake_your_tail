@@ -24,7 +24,7 @@ export const Preloader = () => {
             className="w-full xl:hidden"
           />
           <div className="block">
-            <p className=" md:text-[80px] sm:text-[60px] text-[40px] lg:text-start text-center font-roboto font-bold text-white leading-[101%] overflow-hidden text-center whitespace-nowrap w-0 typed">
+            <p className=" md:text-[80px] sm:text-[60px] text-[40px] lg:text-start text-center font-roboto font-bold text-white leading-[101%] overflow-hidden whitespace-nowrap w-0 typed">
               Smart, Simple<span className="block text-center"> Software</span>
             </p>
           </div>

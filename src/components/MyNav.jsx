@@ -16,7 +16,11 @@ export const MyNav = () => {
     <>
       <div className="container flex-grow-0 mx-auto pb-5 lg:pb-0 px-3 mx-w-[1140px] py-[14px] lg:bg-transparent bg-[#FA6C8F]">
         <div className="flex justify-between items-end lg:items-center">
-          <img src={navLogo} alt="navLogo" className="z-30 relative cursor-pointer" />
+          <img
+            src={navLogo}
+            alt="navLogo"
+            className="z-30 relative cursor-pointer"
+          />
           <ul
             className={`flex gap-3 lg:gap-5 items-center justify-center z-20 lg:justify-end flex-col lg:flex-row min-h-full lg:min-h-fit bg-[#FA6C8F] fixed lg:relative lg:bg-transparent start-[-100%] lg:start-0 top-0 w-full transition-all duration-300 ease-linear ${
               head ? "" : "!left-0"
@@ -25,7 +29,7 @@ export const MyNav = () => {
             <li>
               <a
                 href="#"
-                className=" text-white font-helveticaMedium font-medium text-base"
+                className=" text-white after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[3px] after:bg-white after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full font-medium text-base font-helveticaMedium"
               >
                 Home
               </a>
@@ -33,7 +37,7 @@ export const MyNav = () => {
             <li>
               <a
                 href="#"
-                className=" text-white font-helveticaMedium font-medium text-base"
+                className=" text-white font-helveticaMedium font-medium text-base after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[3px] after:bg-white after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full"
               >
                 Features
               </a>
@@ -41,7 +45,7 @@ export const MyNav = () => {
             <li>
               <a
                 href="#"
-                className=" text-white font-helveticaMedium font-medium text-base"
+                className=" text-white font-helveticaMedium font-medium text-base after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[3px] after:bg-white after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full"
               >
                 Pricing
               </a>
@@ -49,7 +53,7 @@ export const MyNav = () => {
             <li>
               <a
                 href="#"
-                className=" text-white font-helveticaMedium font-medium text-base"
+                className=" text-white font-helveticaMedium font-medium text-base after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[3px] after:bg-white after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full"
               >
                 Free Trial
               </a>
