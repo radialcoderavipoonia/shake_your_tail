@@ -7,7 +7,7 @@ import schedule_bottom from "../assets/images/svg/schedule_img_bottom.svg"
 const MainFeatures = () => {
   return (
     <>
-      <section className="pt-12 pb-12 lg:pb-0 lg:mt-20"id="new_features">
+      <section className="pt-12 pb-12 lg:pb-0 xl:mt-20"id="new_features">
         <div className="container">
           <div className="flex flex-wrap justify-between lg:flex-row flex-col-reverse items-center">
             <div className="lg:w-[50%] w-full lg:mt-0 mt-12">
