@@ -3,7 +3,7 @@ import MyNav from "../components/MyNav";
 import mobile from "../assets/images/png/heroMobile.png";
 export const Hero = () => {
   return (
-    <div className="min-h-screen flex flex-col items-center">
+    <div className="md:min-h-screen flex flex-col items-center">
       <MyNav />
       <div className="container mx-auto mt-8 pb-10 flex-1 relative z-10 flex items-center">
         <div className="flex flex-wrap items-center lg:flex-row flex-col-reverse">
@@ -16,7 +16,7 @@ export const Hero = () => {
               appointment confirmations, reminders & more.
             </p>
             <div className="flex items-center mt-[33px] lg:text-start text-center">
-              <button className="font-roboto flex items-start justify-center text-xl py-[14px] px-[30px] bg-[#5B95E0] rounded-full text-white me-3 hover:shadow-[0px_4px_25px_0px_#FFC100] hover:bg-[#FFC100] hover:border border-white">
+              <button className="font-roboto flex items-start justify-center text-xl py-[14px] px-[30px] bg-[#5B95E0] rounded-full text-white me-3 hover:shadow-[0px_4px_25px_0px_#FFC100] hover:bg-[#FFC100] hover:border hover:border-white border border-transparent">
                 Free Trial
               </button>
               <button className="font-roboto flex items-start justify-center text-xl py-[14px] px-[30px] bg-[#FFC100] rounded-full text-white shadow-[0px_4px_25px_0px_#FFC100] border border-white hover:border-transparent hover:bg-[#5B95E0] transition-all duration-300">
@@ -25,7 +25,7 @@ export const Hero = () => {
             </div>
           </div>
           <div className="lg:w-1/2 w-full flex items-center justify-center">
-            <img src={mobile} alt="mobile" className="lg:w-full w-[60%]" />
+            <img src={mobile} alt="mobile" className="lg:w-full sm:w-[40%] w-[60%]" />
           </div>
         </div>
       </div>

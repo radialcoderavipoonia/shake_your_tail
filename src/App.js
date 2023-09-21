@@ -14,10 +14,13 @@ import AboutUs from "./components/AboutUs";
 import PricingPlan from "./components/PricingPlan";
 import CustomerExperience from "./components/CustomerExperience";
 import DownloadApp from "./components/DownloadApp";
+import BackToTop from "./components/BackToTop";
+import { Preloader } from "./components/Preloader";
 function App() {
   return (
     <>
       <div className="bg-[#fff] overflow-hidden">
+        <Preloader />
         <div className="relative bgHero bg-no-repeat lg:bg-transparent bg-[#FFC100]">
           <Hero />
           <div>
@@ -42,6 +45,7 @@ function App() {
         <Testonimals />
         <Faq />
         <MyFooter />
+        <BackToTop />
       </div>
     </>
   );
