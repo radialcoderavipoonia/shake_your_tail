@@ -6,7 +6,6 @@ const PricingPlan = () => {
   const toggle = () => {
     setIsChecked(!isChecked);
   };
-
   return (
     <>
       <section className="py-12">
