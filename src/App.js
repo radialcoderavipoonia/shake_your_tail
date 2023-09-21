@@ -38,15 +38,10 @@ function App() {
         </div>
         <HowIt />
         <PricingPlan />
-        <div className="yellow_bg_img mt-20">
-          <DownloadApp />
-          <AboutUs />
-        </div>
+        <AboutUs />
         <Testonimals />
         <Faq />
         <MyFooter />
-    
-       
       </div>
     </>
   );
