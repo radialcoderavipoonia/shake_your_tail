@@ -26,7 +26,7 @@ function App() {
             />
             <img
               src={whiteCircle}
-              className="start-0 absolute md:bottom-[33%] bottom-10 h-[140px] sm:block hidden"
+              className="start-0 absolute xl:bottom-[33%] lg:bottom-40 bottom-10 h-[140px] sm:block hidden"
             />
           </div>
         </div>
