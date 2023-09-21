@@ -33,7 +33,7 @@ const AboutUs = () => {
                   <div
                     className={"absolute bottom-0 right-0 ${aboutK.bottom_img}"}
                   >
-                    <img src={aboutK.bootom} alt="" />
+                    <img src={aboutK.bootom} />
                   </div>
                   <img
                     className="max-w-[48px]"
