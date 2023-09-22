@@ -56,6 +56,7 @@ export const Pricing = [
     mobile: "",
     rep: "",
     supp: "",
+    include: "!block",
   },
   {
     id: 3,
@@ -87,6 +88,7 @@ export const Pricing = [
     mobile: click,
     rep: click,
     supp: click,
+    include: "!block",
   },
   {
     id: 4,
@@ -119,6 +121,7 @@ export const Pricing = [
     mobile: click,
     rep: click,
     supp: click,
+    include: "!block",
   },
 ];
 export const Feature = [

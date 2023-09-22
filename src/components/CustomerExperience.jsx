@@ -1,11 +1,13 @@
 import React from "react";
 import customerBigImg from "../assets/images/png/customer_big_img.png";
 import customerSmallImg from "../assets/images/png/customer_small_img.png";
-
 const CustomerExperience = () => {
   return (
     <>
-      <section className="xl:pt-14 xl:pb-14 pb-0 md:py-20 lg:py-40 relative z-10" id="trial">
+      <section
+        className="xl:pt-32 xl:pb-32 pb-0 md:py-20 lg:py-40 relative z-10"
+        id="trial"
+      >
         <div className="container">
           <div className="flex flex-wrap justify-between items-center">
             <div className="md:w-[40%]">
