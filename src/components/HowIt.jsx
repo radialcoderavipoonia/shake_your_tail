@@ -7,7 +7,7 @@ import custom from "../assets/images/svg/custom3.svg";
 import tick from "../assets/images/svg/tick4.svg";
 export const HowIt = () => {
   return (
-    <div className="py-14 lg:pt-20 xl:pt-40" id="hows">
+    <div className="py-14 lg:pt-20 xl:pt-14" id="hows">
       <div className="container">
         <div className="text-center md:text-start">
           <p

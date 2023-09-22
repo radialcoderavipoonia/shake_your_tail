@@ -1,5 +1,6 @@
 import React from "react";
 import { Feature } from "./common/Helper";
+import bottom_img from "../assets/images/svg/feature_card_bottom.svg"
 const Features = () => {
   return (
     <>
@@ -27,7 +28,7 @@ const Features = () => {
             {Feature.map((All) => {
               return (
                 <div
-                  className="lg:w-[23%] mx-2 sm:w-[46%]  mb-8 px-5 pt-5 pb-[34px] bg-[#fff] rounded-[14px] hover:translate-y-[-10px] transition-all duration-300"
+                  className="lg:w-[23%] mx-2 sm:w-[46%]  mb-8 px-5 pt-5 pb-[34px] bg-[#fff] rounded-[14px] hover:translate-y-[-10px] transition-all duration-300 overflow-hidden relative"
                   key={All.id}
                   data-aos={All.aos}
                   data-aos-delay={All.delay}
@@ -40,6 +41,9 @@ const Features = () => {
                     <p className="pt-2 text-base text-[#12191F] text-opacity-70">
                       {All.para}
                     </p>
+                  </div>
+                  <div className={`${All.hidden} hidden absolute bottom-[-20px] right-[-10px]`}>
+                    <img src={bottom_img} alt="bottom image" />
                   </div>
                 </div>
               );

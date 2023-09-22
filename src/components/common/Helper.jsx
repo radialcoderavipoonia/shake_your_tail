@@ -148,6 +148,7 @@ export const Feature = [
     img: clients,
     aos: "fade-down-right",
     delay: "500",
+    hidden:"!block"
   },
   {
     id: 3,

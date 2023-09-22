@@ -5,11 +5,11 @@ const CustomerExperience = () => {
   return (
     <>
       <section
-        className="xl:pt-32 xl:pb-32 pb-0 md:py-20 lg:py-40 relative z-10"
+        className="xl:pt-32 xl:pb-32 pb-0 md:pt-10 md:pb-20 pb-10 lg:py-40 relative z-10"
         id="trial"
       >
         <div className="container">
-          <div className="flex flex-wrap justify-between items-center">
+          <div className="flex flex-wrap md:justify-between justify-center items-center">
             <div className="md:w-[40%]">
               <div className="text-center md:text-start">
                 <h2

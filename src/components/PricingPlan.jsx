@@ -50,7 +50,7 @@ const PricingPlan = () => {
             </p>
           </div>
           <div className="overflow-x-scroll xl:overflow-x-auto">
-            <div className="flex flex-wrap justify-between pt-10 sm:pt-14 md:pt-[68px] w-[1140px] ">
+            <div className="flex flex-wrap justify-between pt-10 sm:pt-14 md:pt-[48px] w-[1140px] ">
               {Pricing.map((plan) => {
                 return (
                   <div
