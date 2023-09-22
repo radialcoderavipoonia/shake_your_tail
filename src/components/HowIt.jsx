@@ -11,7 +11,7 @@ export const HowIt = () => {
       <div className="container">
         <div className="text-center md:text-start">
           <p
-            className=" text-[#12191F] text-4xl lg:text-[48px] font-roboto font-medium"
+            className="text-[#12191F] text-4xl lg:text-[48px] font-roboto font-medium"
             data-aos="fade-down-right"
             data-aos-delay="500"
           >
@@ -42,18 +42,18 @@ export const HowIt = () => {
           <div className="flex flex-wrap justify-between md:w-full w-10/12">
             {/* 01 */}
             <div
-              className=" flex md:justify-center md:w-[25%] w-full"
+              className="flex md:justify-center md:w-[25%] w-full"
               data-aos="fade-right"
               data-aos-delay="500"
             >
               <div
-                className=" mt-[37px] relative md:after:rotate-0 after:rotate-90 afterContent after:absolute after:h-[40px]
+                className="mt-[37px] relative md:after:rotate-0 after:rotate-90 afterContent after:absolute after:h-[40px]
                after:w-[2px] md:after:top-[-19%] after:top-[-7%] md:after:start-[8%] after:start-[-4%] after:hidden sm:after:block"
               >
                 <div className="bg-[#FFC100] h-[18px] w-[18px] rounded-full md:mb-[28px] mb-3 relative z-10"></div>
                 <img src={lock} alt="lock" width={24} height={24} />
-                <div className=" relative md:pt-3">
-                  <p className=" text-[#12191F] font-roboto text-xl font-bold">
+                <div className="relative md:pt-3">
+                  <p className="text-[#12191F] font-roboto text-xl font-bold">
                     Login
                   </p>
                   <p className="text-[#12191F] md:max-w-[204px] max-w-[300px] font-light font-helveticaLight opacity-70 md:pt-2">
@@ -67,18 +67,18 @@ export const HowIt = () => {
             </div>
             {/* 02 */}
             <div
-              className=" flex md:justify-center md:w-[25%] w-full"
+              className="flex md:justify-center md:w-[25%] w-full"
               data-aos="fade-right"
               data-aos-delay="600"
             >
               <div
-                className=" mt-[37px] relative md:after:rotate-0 after:rotate-90 afterContent after:absolute after:h-[40px]
+                className="mt-[37px] relative md:after:rotate-0 after:rotate-90 afterContent after:absolute after:h-[40px]
                after:w-[2px] md:after:top-[-19%] after:top-[-7%] md:after:start-[8%] after:start-[-4%] after:hidden sm:after:block"
               >
                 <div className="bg-[#45C6CE] h-[18px] w-[18px] rounded-full md:mb-[28px] mb-3 relative z-10"></div>
                 <img src={key} alt="lock" width={24} height={24} />
-                <div className=" relative md:pt-3">
-                  <p className=" text-[#12191F] font-roboto text-xl font-bold">
+                <div className="relative md:pt-3">
+                  <p className="text-[#12191F] font-roboto text-xl font-bold">
                     Login
                   </p>
                   <p className="text-[#12191F] md:max-w-[204px] max-w-[300px] font-light font-helveticaLight opacity-70 md:pt-2">
@@ -92,18 +92,18 @@ export const HowIt = () => {
             </div>
             {/* 03 */}
             <div
-              className=" flex md:justify-center md:w-[25%] w-full"
+              className="flex md:justify-center md:w-[25%] w-full"
               data-aos="fade-right"
               data-aos-delay="700"
             >
               <div
-                className=" mt-[37px] relative md:after:rotate-0 after:rotate-90 afterContent after:absolute after:h-[40px]
+                className="mt-[37px] relative md:after:rotate-0 after:rotate-90 afterContent after:absolute after:h-[40px]
                after:w-[2px] md:after:top-[-19%] after:top-[-7%] md:after:start-[4%] after:start-[-4%] after:hidden sm:after:block"
               >
                 <div className="bg-[#5B95E0] h-[18px] w-[18px] rounded-full md:mb-[28px] mb-3 relative z-10"></div>
                 <img src={custom} alt="lock" width={24} height={24} />
-                <div className=" relative md:pt-3">
-                  <p className=" text-[#12191F] font-roboto text-xl font-bold">
+                <div className="relative md:pt-3">
+                  <p className="text-[#12191F] font-roboto text-xl font-bold">
                     Customise
                   </p>
                   <p className="text-[#12191F] md:max-w-[204px] max-w-[300px] font-light font-helveticaLight opacity-70 md:pt-2">
@@ -117,18 +117,18 @@ export const HowIt = () => {
             </div>
             {/* 04 */}
             <div
-              className=" flex md:justify-center md:w-[25%] w-full"
+              className="flex md:justify-center md:w-[25%] w-full"
               data-aos="fade-right"
               data-aos-delay="750"
             >
               <div
-                className=" mt-[37px] relative md:after:rotate-0 after:rotate-90 afterContent after:absolute after:h-[40px]
+                className="mt-[37px] relative md:after:rotate-0 after:rotate-90 afterContent after:absolute after:h-[40px]
                after:w-[2px] md:after:top-[-19%] after:top-[-6%] md:after:start-[4%] after:start-[-4%] after:hidden sm:after:block"
               >
                 <div className="bg-[#F2205C] h-[18px] w-[18px] rounded-full md:mb-[28px] mb-3 relative z-10"></div>
                 <img src={tick} alt="lock" width={24} height={24} />
-                <div className=" relative md:pt-3">
-                  <p className=" text-[#12191F] font-roboto text-xl font-bold">
+                <div className="relative md:pt-3">
+                  <p className="text-[#12191F] font-roboto text-xl font-bold">
                     Done
                   </p>
                   <p className="text-[#12191F] md:max-w-[204px] max-w-[300px] font-light font-helveticaLight opacity-70 md:pt-2">

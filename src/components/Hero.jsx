@@ -8,7 +8,7 @@ export const Hero = () => {
       <div className="container mx-auto mt-8 pb-14 flex-1 relative z-10 flex items-center">
         <div className="flex flex-wrap items-center lg:flex-row flex-col-reverse">
           <div className="lg:w-1/2 w-full flex flex-col lg:items-start items-center lg:pb-20 mt-5 lg:mt-0">
-            <p className=" md:text-[80px] sm:text-[60px] text-[40px] lg:text-start text-center font-roboto font-bold text-white leading-[101%] overflow-hidden whitespace-nowrap w-0 typed2 typed">
+            <p className="md:text-[80px] sm:text-[60px] text-[40px] lg:text-start text-center font-roboto font-bold text-white leading-[101%] overflow-hidden whitespace-nowrap w-0 typed2 typed">
               Smart, Simple <br /> Software
             </p>
             <p className="font-helveticaMedium lg:text-start lg:pt-0 pt-3 text-center font-medium text-lg md:text-xl text-white max-w-[510px] lg:max-w-[490px]">

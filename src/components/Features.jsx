@@ -54,7 +54,7 @@ const Features = () => {
             data-aos="fade-up"
             data-aos-delay="500"
           >
-            <button className=" text-white font-roboto font-regular text-xl md:text-xl bg-[#FFC100] px-[30px] py-[14px] rounded-[100px] hover:bg-white transition-all duration-300 hover:text-[#FFC100]">
+            <button className="text-white font-roboto font-regular text-xl md:text-xl bg-[#FFC100] px-[30px] py-[14px] rounded-[100px] hover:bg-white transition-all duration-300 hover:text-[#FFC100]">
               View All Features
             </button>
           </div>

@@ -29,7 +29,7 @@ export const MyNav = () => {
             <li>
               <a
                 href="#"
-                className=" text-white after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[3px] after:bg-white after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full font-medium text-base font-helveticaMedium"
+                className="text-white after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[3px] after:bg-white after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full font-medium text-base font-helveticaMedium"
                 onClick={showUl}
               >
                 Home
@@ -37,7 +37,7 @@ export const MyNav = () => {
             </li>
             <li>
               <a
-                className=" text-white font-helveticaMedium font-medium text-base after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[3px] after:bg-white after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full"
+                className="text-white font-helveticaMedium font-medium text-base after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[3px] after:bg-white after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full"
                 href="#features"
                 onClick={showUl}
               >
@@ -46,7 +46,7 @@ export const MyNav = () => {
             </li>
             <li>
               <a
-                className=" text-white font-helveticaMedium font-medium text-base after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[3px] after:bg-white after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full"
+                className="text-white font-helveticaMedium font-medium text-base after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[3px] after:bg-white after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full"
                 href="#pricing"
                 onClick={showUl}
               >
@@ -55,7 +55,7 @@ export const MyNav = () => {
             </li>
             <li>
               <a
-                className=" text-white font-helveticaMedium font-medium text-base after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[3px] after:bg-white after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full"
+                className="text-white font-helveticaMedium font-medium text-base after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[3px] after:bg-white after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full"
                 href="#trial"
                 onClick={showUl}
               >
@@ -63,7 +63,7 @@ export const MyNav = () => {
               </a>
             </li>
             <li>
-              <button className=" font-roboto flex items-start justify-center text-xl py-[14px] px-[30px] bg-[#5B95E0] rounded-full text-white hover:bg-[#FFC100] transition-all duration-300">
+              <button className="font-roboto flex items-start justify-center text-xl py-[14px] px-[30px] bg-[#5B95E0] rounded-full text-white hover:bg-[#FFC100] transition-all duration-300">
                 Sign In
               </button>
             </li>
