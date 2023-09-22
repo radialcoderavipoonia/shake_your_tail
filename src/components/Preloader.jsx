@@ -9,7 +9,7 @@ export const Preloader = () => {
   return (
     <div
       id="none"
-      className=" min-h-screen w-100 top-0 start-0 h-full w-full fixed bg-black z-50"
+      className="min-h-screen w-100 top-0 start-0 h-full w-full fixed bg-black z-50"
     >
       <div className="flex justify-center items-center min-h-screen">
         <span className="w-[50%] flex flex-col justify-center items-center ">
@@ -24,7 +24,7 @@ export const Preloader = () => {
             className="w-full xl:hidden"
           />
           <div className="block">
-            <p className=" md:text-[80px] sm:text-[60px] text-[40px] lg:text-start text-center font-roboto font-bold text-white leading-[101%] overflow-hidden whitespace-nowrap w-0 typed">
+            <p className="md:text-[80px] sm:text-[60px] text-[40px] lg:text-start text-center font-roboto font-bold text-white leading-[101%] overflow-hidden whitespace-nowrap w-0 typed">
               Smart, Simple<span className="block text-center"> Software</span>
             </p>
           </div>

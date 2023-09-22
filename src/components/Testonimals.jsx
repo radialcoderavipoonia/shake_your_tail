@@ -8,6 +8,7 @@ const Testonimals = () => {
   var settings = {
     dots: false,
     infinite: true,
+    fade: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -29,7 +30,7 @@ const Testonimals = () => {
           </h2>
           <div className="md:flex flex-wrap items-center sm:mt-8 md:mt-10 xl:mt-20 xl:pt-5">
             <div className="w-10/12 md:w-1/2 mx-auto md:mx-0">
-              <div className=" lg:translate-x-[-20px] xl:translate-x-[-50px] md:pe-3 mt-5 md:mt-0">
+              <div className="lg:translate-x-[-20px] xl:translate-x-[-50px] md:pe-3 mt-5 md:mt-0">
                 <img
                   className="w-full"
                   data-aos="fade-down-right"
