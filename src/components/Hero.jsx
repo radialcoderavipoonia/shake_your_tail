@@ -37,8 +37,6 @@ export const Hero = () => {
               src={mobile}
               alt="mobile"
               className="lg:w-full sm:w-[40%] w-[60%] animate-spin"
-              data-aos="fade-down"
-              data-aos-delay="2500"
             />
           </div>
         </div>
