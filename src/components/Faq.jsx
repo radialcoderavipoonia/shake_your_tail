@@ -6,7 +6,11 @@ const Faq = () => {
     <>
       <section className="py-12 lg:mt-20 xl:mt-[120px]" id="faq">
         <div className="container">
-          <h2 className="font-medium text-5xl font-roboto text-[#12191F] text-center lg:text-start">
+          <h2
+            data-aos="fade-down-right"
+            data-aos-delay="500"
+            className="font-medium text-5xl font-roboto text-[#12191F] text-center lg:text-start"
+          >
             FAQ’s
           </h2>
           <div className="flex flex-wrap mt-11 flex-col-reverse lg:flex-row">
@@ -14,10 +18,18 @@ const Faq = () => {
               <div className="me-10 mt-5 sm:mt-8 md:mt-10 lg:mt-0 w-full lg:w-auto">
                 <Accordion className="border-none">
                   <Accordion.Panel>
-                    <Accordion.Title className="text-[#454253] text-xl font-helveticaMedium font-medium pb-0 ps-0 text-start">
+                    <Accordion.Title
+                      className="text-[#454253] text-xl font-helveticaMedium font-medium pb-0 ps-0 text-start"
+                      data-aos="fade-down"
+                      data-aos-delay="1000"
+                    >
                       Do you have a mobile app?
                     </Accordion.Title>
-                    <Accordion.Content className="py-0 pt-3 ps-0">
+                    <Accordion.Content
+                      className="py-0 pt-3 ps-0"
+                      data-aos="fade-down"
+                      data-aos-delay="1000"
+                    >
                       <p className="font-light font-helveticaLight text-base text-[#454253]">
                         Yes, our mobile app is available to premier and premier
                         plus subscribers, allowing you to manage your business
@@ -27,10 +39,18 @@ const Faq = () => {
                     <div className="border-b mt-4"></div>
                   </Accordion.Panel>
                   <Accordion.Panel className="border-b">
-                    <Accordion.Title className="text-[#454253] text-xl font-helveticaMedium font-medium pb-0 ps-0 text-start">
+                    <Accordion.Title
+                      className="text-[#454253] text-xl font-helveticaMedium font-medium pb-0 ps-0 text-start"
+                      data-aos="fade-down"
+                      data-aos-delay="1000"
+                    >
                       Do you support start-up business?
                     </Accordion.Title>
-                    <Accordion.Content className="py-0 pt-3 ps-0">
+                    <Accordion.Content
+                      className="py-0 pt-3 ps-0"
+                      data-aos="fade-down"
+                      data-aos-delay="1000"
+                    >
                       <p className="font-light font-helveticaLight text-base text-[#454253]">
                         Yes, our mobile app is available to premier and premier
                         plus subscribers, allowing you to manage your business
@@ -40,10 +60,18 @@ const Faq = () => {
                     <div className="border-b mt-4"></div>
                   </Accordion.Panel>
                   <Accordion.Panel>
-                    <Accordion.Title className="text-[#454253] text-xl font-helveticaMedium font-medium pb-0 ps-0 text-start">
+                    <Accordion.Title
+                      className="text-[#454253] text-xl font-helveticaMedium font-medium pb-0 ps-0 text-start"
+                      data-aos="fade-down"
+                      data-aos-delay="1000"
+                    >
                       I’ve used up all my monthly SMS credits, can I buy more?
                     </Accordion.Title>
-                    <Accordion.Content className="py-0 pt-3 ps-0">
+                    <Accordion.Content
+                      className="py-0 pt-3 ps-0"
+                      data-aos="fade-down"
+                      data-aos-delay="1000"
+                    >
                       <p className="font-light font-helveticaLight text-base text-[#454253] py-0">
                         Yes, our mobile app is available to premier and premier
                         plus subscribers, allowing you to manage your business
@@ -53,10 +81,18 @@ const Faq = () => {
                     <div className="border-b mt-4"></div>
                   </Accordion.Panel>
                   <Accordion.Panel>
-                    <Accordion.Title className="text-[#454253] text-xl font-helveticaMedium font-medium pb-0 ps-0 text-start">
+                    <Accordion.Title
+                      className="text-[#454253] text-xl font-helveticaMedium font-medium pb-0 ps-0 text-start"
+                      data-aos="fade-down"
+                      data-aos-delay="1000"
+                    >
                       What do I need to access the system?
                     </Accordion.Title>
-                    <Accordion.Content className="py-0 pt-3 ps-0">
+                    <Accordion.Content
+                      className="py-0 pt-3 ps-0"
+                      data-aos="fade-down"
+                      data-aos-delay="1000"
+                    >
                       <p className="font-light font-helveticaLight text-base text-[#454253] py-0">
                         Yes, our mobile app is available to premier and premier
                         plus subscribers, allowing you to manage your business
@@ -66,11 +102,19 @@ const Faq = () => {
                     <div className="border-b mt-4"></div>
                   </Accordion.Panel>
                   <Accordion.Panel>
-                    <Accordion.Title className="text-[#454253] text-xl font-helveticaMedium font-medium pb-0 ps-0 text-start">
+                    <Accordion.Title
+                      className="text-[#454253] text-xl font-helveticaMedium font-medium pb-0 ps-0 text-start"
+                      data-aos="fade-down"
+                      data-aos-delay="1000"
+                    >
                       Can you import my data?
                     </Accordion.Title>
                     <Accordion.Content className="py-0 pt-3 ps-0">
-                      <p className="font-light font-helveticaLight text-base text-[#454253] py-0 ">
+                      <p
+                        className="font-light font-helveticaLight text-base text-[#454253] py-0 "
+                        data-aos="fade-down"
+                        data-aos-delay="1000"
+                      >
                         Yes, our mobile app is available to premier and premier
                         plus subscribers, allowing you to manage your business
                         on the go.
@@ -81,7 +125,11 @@ const Faq = () => {
                 </Accordion>
               </div>
             </div>
-            <div className="lg:w-5/12">
+            <div
+              className="lg:w-5/12"
+              data-aos="fade-down-left"
+              data-aos-delay="500"
+            >
               <div className="flex justify-center">
                 <div className="bg-[#FFF9E6] rounded-xl inline-block border border-[1px] border-[#FFDD73]">
                   <div className="py-11 px-11 text-center">

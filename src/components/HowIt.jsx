@@ -10,12 +10,20 @@ export const HowIt = () => {
     <div className="py-14 lg:pt-20 xl:pt-14" id="hows">
       <div className="container">
         <div className="text-center md:text-start">
-          <p className=" text-[#12191F] text-4xl lg:text-[48px] font-roboto font-medium">
+          <p
+            className=" text-[#12191F] text-4xl lg:text-[48px] font-roboto font-medium"
+            data-aos="fade-down-right"
+            data-aos-delay="500"
+          >
             How It Work
           </p>
-          <p className="max-w-[585px] pt-2 text-base font-light font-helveticaLight text-[#12191F] mx-auto md:mx-0">
-            ShakeYourTail is an online scheduling and CRM service & is super easy
-            to use, you can trial our premier service free for 30 days.
+          <p
+            className="max-w-[585px] pt-2 text-base font-light font-helveticaLight text-[#12191F] mx-auto md:mx-0"
+            data-aos="fade-down-right"
+            data-aos-delay="600"
+          >
+            ShakeYourTail is an online scheduling and CRM service & is super
+            easy to use, you can trial our premier service free for 30 days.
           </p>
         </div>
         <div className="mt-[53px] flex flex-wrap">
@@ -23,6 +31,8 @@ export const HowIt = () => {
             src={linerLine}
             alt="linerLine"
             className="md:w-full relative z-10 w-2/12 md:block hidden"
+            data-aos="fade-down-right"
+            data-aos-delay="500"
           />
           <img
             src={linerLine2}
@@ -31,7 +41,11 @@ export const HowIt = () => {
           />
           <div className="flex flex-wrap justify-between md:w-full w-10/12">
             {/* 01 */}
-            <div className=" flex md:justify-center md:w-[25%] w-full">
+            <div
+              className=" flex md:justify-center md:w-[25%] w-full"
+              data-aos="fade-right"
+              data-aos-delay="500"
+            >
               <div
                 className=" mt-[37px] relative md:after:rotate-0 after:rotate-90 afterContent after:absolute after:h-[40px]
                after:w-[2px] md:after:top-[-19%] after:top-[-7%] md:after:start-[8%] after:start-[-4%] after:hidden sm:after:block"
@@ -52,7 +66,11 @@ export const HowIt = () => {
               </div>
             </div>
             {/* 02 */}
-            <div className=" flex md:justify-center md:w-[25%] w-full">
+            <div
+              className=" flex md:justify-center md:w-[25%] w-full"
+              data-aos="fade-right"
+              data-aos-delay="600"
+            >
               <div
                 className=" mt-[37px] relative md:after:rotate-0 after:rotate-90 afterContent after:absolute after:h-[40px]
                after:w-[2px] md:after:top-[-19%] after:top-[-7%] md:after:start-[8%] after:start-[-4%] after:hidden sm:after:block"
@@ -73,7 +91,11 @@ export const HowIt = () => {
               </div>
             </div>
             {/* 03 */}
-            <div className=" flex md:justify-center md:w-[25%] w-full">
+            <div
+              className=" flex md:justify-center md:w-[25%] w-full"
+              data-aos="fade-right"
+              data-aos-delay="700"
+            >
               <div
                 className=" mt-[37px] relative md:after:rotate-0 after:rotate-90 afterContent after:absolute after:h-[40px]
                after:w-[2px] md:after:top-[-19%] after:top-[-7%] md:after:start-[4%] after:start-[-4%] after:hidden sm:after:block"
@@ -94,7 +116,11 @@ export const HowIt = () => {
               </div>
             </div>
             {/* 04 */}
-            <div className=" flex md:justify-center md:w-[25%] w-full">
+            <div
+              className=" flex md:justify-center md:w-[25%] w-full"
+              data-aos="fade-right"
+              data-aos-delay="750"
+            >
               <div
                 className=" mt-[37px] relative md:after:rotate-0 after:rotate-90 afterContent after:absolute after:h-[40px]
                after:w-[2px] md:after:top-[-19%] after:top-[-6%] md:after:start-[4%] after:start-[-4%] after:hidden sm:after:block"

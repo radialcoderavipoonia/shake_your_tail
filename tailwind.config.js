@@ -17,6 +17,18 @@ module.exports = {
           xl: "1164px",
         },
       },
+      animation: {
+        spin: "spin 2s ease-in-out infinite",
+      },
+      // animation: {
+      //   ping: "ping 2s ease-in-out infinite",
+      // },
+      keyframes: {
+        spin: {
+          "0%, 100%": { transform: "rotate(-5deg)" },
+          "50%": { transform: "rotate(5deg)" },
+        },
+      },
     },
   },
   plugins: [],

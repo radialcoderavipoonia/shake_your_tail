@@ -5,11 +5,15 @@ import app_store from "../assets/images/webp/app_store.webp";
 const DownloadApp = () => {
   return (
     <>
-      <section className="pt-12 lg:pt-16 lg:pt-[135px] bg-[#FFC100] lg:bg-transparent">
+      <section className="pt-12 lg:pt-[135px] bg-[#FFC100] lg:bg-transparent">
         <div className="container">
           <div className="flex flex-wrap justify-between items-center">
             <div className="md:w-2/5 z-10 w-full">
-              <div className="text-center md:text-start">
+              <div
+                className="text-center md:text-start"
+                data-aos="fade-down-right"
+                data-aos-delay="500"
+              >
                 <h2 className="text-3xl sm:text-4xl md:text-5xl font-roboto !font-medium text-white">
                   Download App
                 </h2>
@@ -45,7 +49,7 @@ const DownloadApp = () => {
             </div>
             <div className="w-9/12 md:w-1/2 mx-auto md:mx-0">
               <div className="mt-10">
-                <img src={Mobile_img} alt="Mobile_img" className="w-100"/>
+                <img src={Mobile_img} alt="Mobile_img" className="w-100" />
               </div>
             </div>
           </div>

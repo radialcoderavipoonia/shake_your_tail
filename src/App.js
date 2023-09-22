@@ -21,7 +21,10 @@ import { Preloader } from "./components/Preloader";
 import AOS from "aos";
 import "aos/dist/aos.css";
 function App() {
-  AOS.init();
+  AOS.init({
+    once: true,
+    disable: "mobile",
+  });
   return (
     <>
       <div className="bg-[#fff] overflow-hidden">
@@ -31,11 +34,11 @@ function App() {
           <div>
             <img
               src={yellowCircle}
-              className="end-0 absolute top-[13%] md:h-[288px] h-[140px]"
+              className="end-0 absolute top-[13%] md:h-[288px] h-[140px] animate-pulse"
             />
             <img
               src={whiteCircle}
-              className="start-0 absolute xl:bottom-[33%] lg:bottom-40 bottom-10 h-[140px] sm:block hidden"
+              className="start-0 absolute xl:bottom-[33%] lg:bottom-40 bottom-10 h-[140px] sm:block hidden animate-pulse"
             />
           </div>
         </div>

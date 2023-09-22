@@ -15,18 +15,35 @@ const Testonimals = () => {
   const first = React.useRef();
   return (
     <>
-      <section className="py-14 lg:py-10 lg:mt-28 xl:mt-[140px]" id="testimonials">
+      <section
+        className="py-14 lg:py-10 lg:mt-28 xl:mt-[206px]"
+        id="testimonials"
+      >
         <div className="container">
-          <h2 className="text-center font-roboto font-medium text-black text-4xl md:text-5xl">
+          <h2
+            className="text-center font-roboto font-medium text-black text-4xl md:text-5xl"
+            data-aos="fade-down-right"
+            data-aos-delay="500"
+          >
             Testimonial
           </h2>
           <div className="md:flex flex-wrap items-center sm:mt-8 md:mt-10 xl:mt-20 xl:pt-5">
             <div className="w-10/12 md:w-1/2 mx-auto md:mx-0">
               <div className=" lg:translate-x-[-20px] xl:translate-x-[-50px] md:pe-3 mt-5 md:mt-0">
-                <img className="w-full" src={Dog_Img} alt="Dog_Img" />
+                <img
+                  className="w-full"
+                  data-aos="fade-down-right"
+                  data-aos-delay="600"
+                  src={Dog_Img}
+                  alt="Dog_Img"
+                />
               </div>
             </div>
-            <div className="md:w-1/2">
+            <div
+              className="md:w-1/2"
+              data-aos="fade-down-left"
+              data-aos-delay="700"
+            >
               <Slider {...settings} ref={first}>
                 <div className="lg:ps-5 mt-10 md:mt-0">
                   <img
