@@ -18,7 +18,10 @@ import bg_feature from "./assets/images/png/features_bg.png";
 import Yellow_bg from "./assets/images/png/yellow_bg_img.png";
 import BackToTop from "./components/BackToTop";
 import { Preloader } from "./components/Preloader";
+import AOS from "aos";
+import "aos/dist/aos.css";
 function App() {
+  AOS.init();
   return (
     <>
       <div className="bg-[#fff] overflow-hidden">
@@ -64,7 +67,7 @@ function App() {
         <Testonimals />
         <Faq />
         <MyFooter />
-        <BackToTop/>
+        <BackToTop />
       </div>
     </>
   );
