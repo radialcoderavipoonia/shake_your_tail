@@ -1,10 +1,9 @@
 import React from "react";
 import { Feature } from "./common/Helper";
-
 const Features = () => {
   return (
     <>
-      <section className="pb-14 lg:pb-36 xl:pt-44 lg:pt-0 pt-12 relative z-10 bg-[#5B95E0] lg:bg-transparent"id="features">
+      <section className="pb-14 lg:pb-36 xl:pt-24 lg:pt-0 pt-12 relative z-10 bg-[#5B95E0] lg:bg-transparent"id="features">
         <div className="container">
           <h2 className="text-white text-3xl md:text-4xl lg:text-5xl font-roboto font-medium text-center">
             Features
@@ -34,7 +33,7 @@ const Features = () => {
             })}
           </div>
           <div className="flex justify-center items-center flex-wrap">
-            <button className="md:mt-[19px] text-white font-roboto font-regular text-xl md:text-xl bg-[#FFC100] px-[30px] py-[14px] rounded-[100px] hover:bg-white transition-all duration-300 hover:text-[#FFC100]">
+            <button className=" text-white font-roboto font-regular text-xl md:text-xl bg-[#FFC100] px-[30px] py-[14px] rounded-[100px] hover:bg-white transition-all duration-300 hover:text-[#FFC100]">
               View All Features
             </button>
           </div>
@@ -43,5 +42,4 @@ const Features = () => {
     </>
   );
 };
-
 export default Features;
