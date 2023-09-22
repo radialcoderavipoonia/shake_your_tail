@@ -21,7 +21,7 @@ const CustomerExperience = () => {
                   <span className="md:block"></span>
                   program.
                 </p>
-                <button className="mt-5 lg:mt-[30px] text-white font-roboto font-regular text-lg md:text-xl bg-[#FFC100] px-[30px] py-3 lg:py-[14px] rounded-[100px] hover:bg-[#5B95E0] transition-all duration-300">
+                <button className="mt-5 lg:mt-[30px] text-white font-roboto font-regular text-lg md:text-xl bg-[#FFC100] px-[30px] py-3 lg:py-[14px] rounded-[100px] hover:bg-[#5B95E0] transition-all duration-300 ">
                   Free Trial
                 </button>
               </div>
