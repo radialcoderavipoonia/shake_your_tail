@@ -1,6 +1,6 @@
 import React from "react";
-import customerBigImg from "../assets/images/png/customer_big_img.png";
-import customerSmallImg from "../assets/images/png/customer_small_img.png";
+import customerBigImg from "../assets/images/webp/customer_big_img.webp";
+import customerSmallImg from "../assets/images/webp/customer_small_img.webp";
 const CustomerExperience = () => {
   return (
     <>

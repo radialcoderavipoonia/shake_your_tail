@@ -1,5 +1,5 @@
 import React from "react";
-import Preloaderimg from "../assets/images/png/heroMobile.png";
+import Preloaderimg from "../assets/images/webp/heroMobile.webp";
 export const Preloader = () => {
   setTimeout(() => {
     document.getElementById("none").classList.add("hidden");

@@ -2,7 +2,7 @@
   scroll-behavior: smooth !important;
 }
 .bgHero {
-  background-image: url(../src/assets/images/png/heroBg2X.png);
+  background-image: url(../src/assets/images/webp/heroBg2X.webp);
 }
 .shadow_box {
   box-shadow: 0px 6px 39px 0px rgba(91, 149, 224, 0.13);
@@ -47,7 +47,7 @@
   }
 }
 .yellow_bg_img {
-  background-image: url(./assets/images/png/yellow_bg_img.png);
+  background-image: url(./assets/images/webp/yellow_bg_img.webp);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -62,7 +62,7 @@
   }
 }
 .yellow_bg_img {
-  background-image: url(./assets/images/png/yellow_bg_img.png);
+  background-image: url(./assets/images/webp/yellow_bg_img.webp);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -70,7 +70,7 @@
   box-shadow: 0px 10px 32px 0px rgba(91, 149, 224, 0.13);
 }
 .bg_customer_feature {
-  background-image: url("../src/assets/images/png/features_bg.png");
+  background-image: url("../src/assets/images/webp/features_bg.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

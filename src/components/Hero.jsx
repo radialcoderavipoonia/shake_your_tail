@@ -1,6 +1,6 @@
 import React from "react";
 import MyNav from "../components/MyNav";
-import mobile from "../assets/images/png/heroMobile.png";
+import mobile from "../assets/images/webp/heroMobile.webp";
 export const Hero = () => {
   return (
     <div className="md:min-h-screen flex flex-col items-center" id="contact">
