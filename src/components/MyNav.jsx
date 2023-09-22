@@ -30,6 +30,7 @@ export const MyNav = () => {
               <a
                 href="#"
                 className=" text-white after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[3px] after:bg-white after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full font-medium text-base font-helveticaMedium"
+                onClick={showUl}
               >
                 Home
               </a>
@@ -38,6 +39,7 @@ export const MyNav = () => {
               <a
                 className=" text-white font-helveticaMedium font-medium text-base after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[3px] after:bg-white after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full"
                 href="#features"
+                onClick={showUl}
               >
                 Features
               </a>
@@ -46,6 +48,7 @@ export const MyNav = () => {
               <a
                 className=" text-white font-helveticaMedium font-medium text-base after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[3px] after:bg-white after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full"
                 href="#pricing"
+                onClick={showUl}
               >
                 Pricing
               </a>
@@ -54,6 +57,7 @@ export const MyNav = () => {
               <a
                 className=" text-white font-helveticaMedium font-medium text-base after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[3px] after:bg-white after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full"
                 href="#trial"
+                onClick={showUl}
               >
                 Free Trial
               </a>

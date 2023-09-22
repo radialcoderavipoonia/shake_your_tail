@@ -10,13 +10,25 @@ const AboutUs = () => {
       >
         <div className="container">
           <div className="text-center mt-10 md:mt-0">
-            <h2 className="font-medium font-helveticaMedium text-white text-4xl md:text-5xl">
+            <h2
+              className="font-medium font-helveticaMedium text-white text-4xl md:text-5xl"
+              data-aos="fade-down-right"
+              data-aos-delay="500"
+            >
               About Us
             </h2>
-            <p className="text-white font-light font-helveticaLight text-base pt-3">
+            <p
+              className="text-white font-light font-helveticaLight text-base pt-3"
+              data-aos="fade-down-right"
+              data-aos-delay="500"
+            >
               Software developed by groomers for groomers
             </p>
-            <p className="text-white font-light font-helveticaLight text-base">
+            <p
+              className="text-white font-light font-helveticaLight text-base"
+              data-aos="fade-down-right"
+              data-aos-delay="500"
+            >
               Our team has a wealth of experience, over 30 years combined
               working in dog grooming salons and over 45{" "}
               <span className="md:block"></span> years combined in working in
@@ -29,6 +41,8 @@ const AboutUs = () => {
                 <div
                   className="w-[90%] mx-auto lg:mt-0 sm:mx-0 sm:w-[48%] md:w-[32%] lg:w-[24%] px-5 pt-5 pb-[34px] bg-[#fff] rounded-[14px] relative min-h-full hover:translate-y-[-10px] transition-all duration-300"
                   key={aboutK.id}
+                  data-aos={aboutK.aos}
+                  data-aos-delay={aboutK.delay}
                 >
                   <div
                     className={"absolute bottom-0 right-0 ${aboutK.bottom_img}"}
@@ -57,7 +71,11 @@ const AboutUs = () => {
             })}
           </div>
           <div className="text-center mt-10 xl:mt-14 pb-16 lg:pb-[97px]">
-            <button className="bg-[#5B95E0] font-normal font-roboto text-xl text-white rounded-full px-10 py-[14px] hover:text-[#5B95E0] hover:bg-white transition-all duration-300">
+            <button
+              className="bg-[#5B95E0] font-normal font-roboto text-xl text-white rounded-full px-10 py-[14px] hover:text-[#5B95E0] hover:bg-white transition-all duration-300"
+              data-aos="fade-down-right"
+              data-aos-delay="500"
+            >
               View All
             </button>
           </div>

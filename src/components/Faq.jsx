@@ -4,15 +4,23 @@ import { Bulp, Massage } from "./common/Icons";
 const Faq = () => {
   return (
     <>
-      <section className="py-12 lg:mt-20 xl:mt-[120px]"id="faq">
+      <section className="py-12 lg:mt-20 xl:mt-[120px]" id="faq">
         <div className="container">
-          <h2 className="font-medium text-5xl font-roboto text-[#12191F] text-center lg:text-start">
+          <h2
+            data-aos="fade-down-right"
+            data-aos-delay="500"
+            className="font-medium text-5xl font-roboto text-[#12191F] text-center lg:text-start"
+          >
             FAQ’s
           </h2>
           <div className="flex flex-wrap mt-11 flex-col-reverse lg:flex-row">
             <div className=" lg:w-7/12">
               <div className="me-10 mt-5 sm:mt-8 md:mt-10 lg:mt-0 w-full lg:w-auto">
-                <Accordion className="border-none">
+                <Accordion
+                  className="border-none"
+                  data-aos="fade-down-right"
+                  data-aos-delay="500"
+                >
                   <Accordion.Panel>
                     <Accordion.Title className="text-[#454253] text-xl font-helveticaMedium font-medium pb-0 ps-0 text-start">
                       Do you have a mobile app?
@@ -81,7 +89,11 @@ const Faq = () => {
                 </Accordion>
               </div>
             </div>
-            <div className="lg:w-5/12">
+            <div
+              className="lg:w-5/12"
+              data-aos="fade-down-left"
+              data-aos-delay="500"
+            >
               <div className="flex justify-center">
                 <div className="bg-[#FFF9E6] rounded-xl inline-block border border-[1px] border-[#FFDD73]">
                   <div className="py-11 px-11 text-center">

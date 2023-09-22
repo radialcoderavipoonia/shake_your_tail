@@ -30,6 +30,8 @@ export const Pricing = [
     mobile: "",
     rep: "",
     supp: "",
+    aos: "fade-down",
+    delay: "500",
   },
   {
     id: 2,
@@ -57,6 +59,8 @@ export const Pricing = [
     rep: "",
     supp: "",
     include: "!block",
+    aos: "fade-down",
+    delay: "600",
   },
   {
     id: 3,
@@ -89,6 +93,8 @@ export const Pricing = [
     rep: click,
     supp: click,
     include: "!block",
+    aos: "fade-down",
+    delay: "700",
   },
   {
     id: 4,
@@ -122,6 +128,8 @@ export const Pricing = [
     rep: click,
     supp: click,
     include: "!block",
+    aos: "fade-down",
+    delay: "800",
   },
 ];
 export const Feature = [
@@ -130,24 +138,32 @@ export const Feature = [
     heading: "Schedule",
     para: "Powerful and easy to use, book appointments for your team members and view a colour coded schedule, at a glance.",
     img: schedule,
+    aos: "fade-down-right",
+    delay: "400",
   },
   {
     id: 2,
     heading: "Clients & Pets",
     para: "Managing your Clients is effortless; Record Client details, view appointment history, breed, photos, medical notes, vet contact, groom note Client loyalty and more.",
     img: clients,
+    aos: "fade-down-right",
+    delay: "500",
   },
   {
     id: 3,
     heading: "Reports",
     para: "Report and export client details, appointments, marketing, no shows and more..",
     img: report,
+    aos: "fade-down-right",
+    delay: "600",
   },
   {
     id: 4,
     heading: "Services",
     para: "Add custom services to appointments, supplementary treatments, collection and drop offs, promotion packages and more.",
     img: services,
+    aos: "fade-down-right",
+    delay: "750",
   },
 ];
 export const About_us = [
@@ -158,6 +174,8 @@ export const About_us = [
     heading: "Founded",
     para: "Dec 2009",
     p: "Founded in 2009 to support pet grooming industry to reduce the the administration burden of running a business.",
+    aos: "fade-left",
+    delay: "900",
   },
   {
     id: 2,
@@ -167,6 +185,8 @@ export const About_us = [
     para: "July 2010",
     p: "We released our first product 'Border' and made our first sales into 3 different countries.",
     bootom: bottom_img,
+    aos: "fade-up",
+    delay: "900",
   },
   {
     id: 3,
@@ -175,6 +195,8 @@ export const About_us = [
     heading: "Pet Schedule Released",
     para: "Dec 2012",
     p: "Our new Web based platform was created and released.",
+    aos: "fade-down",
+    delay: "900",
   },
   {
     id: 4,
@@ -183,5 +205,7 @@ export const About_us = [
     heading: "Subscription Service",
     para: "Aug 2013",
     p: "We released our first premier subscription to the market",
+    aos: "fade-right",
+    delay: "900",
   },
 ];

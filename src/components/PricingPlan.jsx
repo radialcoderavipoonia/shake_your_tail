@@ -8,16 +8,28 @@ const PricingPlan = () => {
   };
   return (
     <>
-      <section className="py-14"id="pricing">
+      <section className="py-14" id="pricing">
         <div className="container">
-          <h2 className="text-4xl md:text-5xl font-roboto font-medium text-[#12191F] text-center">
+          <h2
+            className="text-4xl md:text-5xl font-roboto font-medium text-[#12191F] text-center"
+            data-aos="fade-down"
+            data-aos-delay="500"
+          >
             Pricing Plan
           </h2>
-          <p className="pt-[10px] text-center text-base font-helveticaLight text-[#12191F]">
+          <p
+            className="pt-[10px] text-center text-base font-helveticaLight text-[#12191F]"
+            data-aos="fade-down"
+            data-aos-delay="600"
+          >
             Our Subscriptions, simple, flexible and designed for your business
             needs.
           </p>
-          <div className="flex flex-wrap items-center justify-center pt-5">
+          <div
+            className="flex flex-wrap items-center justify-center pt-5"
+            data-aos="fade-down"
+            data-aos-delay="500"
+          >
             <p className="text-2xl font-roboto font-bold text-[#5B95E0]">
               £ GBP
             </p>
@@ -44,6 +56,8 @@ const PricingPlan = () => {
                   <div
                     key={plan.id}
                     className="w-[23%] mb-4 mx-2 py-[33px] px-[18px] shadow_pricing rounded-[8px] group overflow-hidden relative hover:transition-all hover:duration-150"
+                    data-aos={plan.aos}
+                    data-aos-delay={plan.delay}
                   >
                     <div className="h-full">
                       <div className="flex flex-col justify-between h-full">
@@ -145,7 +159,9 @@ const PricingPlan = () => {
                         </div>
                       </div>
                     </div>
-                    <div className={`bg-[#FFC100] group-hover:bg-[#5B95E0] group-hover:transition-all group-hover:duration-150 absolute top-[30px] hidden right-[-40px] rotate-45 ${plan.include}`}>
+                    <div
+                      className={`bg-[#FFC100] group-hover:bg-[#5B95E0] group-hover:transition-all group-hover:duration-150 absolute top-[30px] hidden right-[-40px] rotate-45 ${plan.include}`}
+                    >
                       <p className="text-[10.44px] w-[166px] text-center font-helveticaMedium text-white py-1">
                         SMS Included
                       </p>

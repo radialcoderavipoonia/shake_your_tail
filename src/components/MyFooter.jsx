@@ -18,19 +18,27 @@ const MyFooter = () => {
           <div className="flex flex-wrap justify-between">
             <div className="md:w-7/12 lg:w-5/12">
               <div>
-                <a href="#">
+                <a href="#" data-aos="fade-down-right" data-aos-delay="500">
                   <img
                     className="max-w-[297px]"
                     src={Footer_logo}
                     alt="Footer_logo"
                   />
                 </a>
-                <h2 className="text-[#DEEAF9] font-base font-helveticaLight font-light sm:max-w-[397px] mt-7">
+                <h2
+                  data-aos="fade-down-right"
+                  data-aos-delay="600"
+                  className="text-[#DEEAF9] font-base font-helveticaLight font-light sm:max-w-[397px] mt-7"
+                >
                   Rutrum mauris vitae at vitae augue placerat arcu in. Vel in
                   elementum tempor enim accumsan enim a magna at. Dolor lorem
                   nisi dignissim nulla.
                 </h2>
-                <div className="flex mt-6 gap-3">
+                <div
+                  className="flex mt-6 gap-3"
+                  data-aos="fade-down-right"
+                  data-aos-delay="700"
+                >
                   <div className="hover:translate-y-[-6px] transition-all duration-500">
                     <a target="blank" href="https://www.facebook.com/">
                       <Facebook />
@@ -61,7 +69,7 @@ const MyFooter = () => {
             </div>
             <div className="md:w-4/12 lg:w-3/12 w-full">
               <div className="flex md:justify-between mt-10 md:mt-0">
-                <ul>
+                <ul data-aos="fade-down-right" data-aos-delay="500">
                   <li className="text-base font-helveticaMedium font-medium text-white">
                     Important Links
                   </li>
@@ -106,7 +114,11 @@ const MyFooter = () => {
                     </a>
                   </li>
                 </ul>
-                <ul className="ps-20 md:ps-0">
+                <ul
+                  className="ps-20 md:ps-0"
+                  data-aos="fade-down-right"
+                  data-aos-delay="600"
+                >
                   <li className="text-base font-helveticaMedium font-medium text-white">
                     Other Links
                   </li>
@@ -140,8 +152,16 @@ const MyFooter = () => {
           </div>
         </div>
         <div className="pt-10 md:pt-14 lg:pt-[90px]">
-          <hr className="border border-[1px] border-slate-300" />
-          <p className="text-center py-5 font-helveticaLight font-light text-base text-white">
+          <hr
+            className="border border-[1px] border-slate-300"
+            data-aos="fade-down-right"
+            data-aos-delay="500"
+          />
+          <p
+            className="text-center py-5 font-helveticaLight font-light text-base text-white"
+            data-aos="fade-down-right"
+            data-aos-delay="600"
+          >
             Made with Powered by Petstar -
             <span>
               <a target="blank" href="https://www.petstar.co.uk/#">
