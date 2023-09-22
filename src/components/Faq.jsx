@@ -4,7 +4,7 @@ import { Bulp, Massage } from "./common/Icons";
 const Faq = () => {
   return (
     <>
-      <section className="py-12 lg:mt-20 xl:mt-[120px]"id="faq">
+      <section className="py-12 lg:mt-20 xl:mt-[120px]" id="faq">
         <div className="container">
           <h2 className="font-medium text-5xl font-roboto text-[#12191F] text-center lg:text-start">
             FAQ’s
@@ -18,7 +18,7 @@ const Faq = () => {
                       Do you have a mobile app?
                     </Accordion.Title>
                     <Accordion.Content className="py-0 pt-3 ps-0">
-                      <p className="font-light font-helveticaLight text-base text-center text-[#454253]">
+                      <p className="font-light font-helveticaLight text-base text-[#454253]">
                         Yes, our mobile app is available to premier and premier
                         plus subscribers, allowing you to manage your business
                         on the go.
@@ -91,7 +91,7 @@ const Faq = () => {
                     <p className="text-[#45414E] font-light font-helveticaLight text-base mt-2">
                       Ask our support team
                     </p>
-                    <button className="flex items-center bg-[#5B95E0] ps-[59px] pe-[59px] py-4 rounded-full mt-4 hover:bg-[#FFC100] transition-all duration-300">
+                    <button className="flex items-center bg-[#5B95E0] sm:ps-[59px] ps-[25px] sm:pe-[59px] pe-[25px] py-4 rounded-full mt-4 hover:bg-[#FFC100] transition-all duration-300">
                       <span>
                         <Bulp />
                       </span>
@@ -99,7 +99,7 @@ const Faq = () => {
                         New Idea?
                       </span>
                     </button>
-                    <button className="flex items-center bg-[#5B95E0] ps-[57px] pe-[57px] py-4 rounded-full mt-4 hover:bg-[#FFC100] transition-all duration-300">
+                    <button className="flex items-center bg-[#5B95E0] sm:ps-[57px] ps-[25px] sm:pe-[57px] pe-[25px] py-4 rounded-full mt-4 hover:bg-[#FFC100] transition-all duration-300">
                       <span>
                         <Massage />
                       </span>

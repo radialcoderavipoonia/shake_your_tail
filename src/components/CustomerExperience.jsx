@@ -5,14 +5,14 @@ const CustomerExperience = () => {
   return (
     <>
       <section
-        className="xl:pt-32 xl:pb-32 pb-0 md:pt-10 md:pb-20 lg:py-40 relative z-10"
+        className="xl:pt-32 xl:pb-32 pb-0 md:pt-10 md:pb-20 pb-10 lg:py-40 relative z-10"
         id="trial"
       >
         <div className="container">
           <div className="flex flex-wrap md:justify-between justify-center items-center">
             <div className="md:w-[40%]">
               <div className="text-center md:text-start mx-auto max-w-[550px]">
-                <h2 className="text-2xl sm:text-3xl lg:text-5xl font-roboto !font-medium text-[#12191F]">
+                <h2 className="text-3xl lg:text-5xl font-roboto !font-medium text-[#12191F]">
                   Let Your Customer Experience Shine
                 </h2>
                 <p className="text-sm md:text-base pt-3 font-helveticaLight text-[#12191F]">
