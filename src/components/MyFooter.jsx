@@ -68,7 +68,7 @@ const MyFooter = () => {
                   <li className="pt-4">
                     <a
                       href="#about"
-                      className="text-[#DEEAF9] font-light font-helveticaLight text-base"
+                      className="text-[#DEEAF9] font-light font-helveticaLight text-base after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#DEEAF9] after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full"
                     >
                       About Us
                     </a>
@@ -76,7 +76,7 @@ const MyFooter = () => {
                   <li className="pt-2">
                     <a
                       href="#features"
-                      className="text-[#DEEAF9] font-light font-helveticaLight text-base"
+                      className="text-[#DEEAF9] font-light font-helveticaLight text-base after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#DEEAF9] after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full"
                     >
                       Features
                     </a>
@@ -84,7 +84,7 @@ const MyFooter = () => {
                   <li className="pt-2">
                     <a
                       href="#pricing"
-                      className="text-[#DEEAF9] font-light font-helveticaLight text-base"
+                      className="text-[#DEEAF9] font-light font-helveticaLight text-base after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#DEEAF9] after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full"
                     >
                       Pricing
                     </a>
@@ -92,7 +92,7 @@ const MyFooter = () => {
                   <li className="pt-2">
                     <a
                       href="#hows"
-                      className="text-[#DEEAF9] font-light font-helveticaLight text-base"
+                      className="text-[#DEEAF9] font-light font-helveticaLight text-base after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#DEEAF9] after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full"
                     >
                       How It Work
                     </a>
@@ -100,7 +100,7 @@ const MyFooter = () => {
                   <li className="pt-2">
                     <a
                       href="#new_features"
-                      className="text-[#DEEAF9] font-light font-helveticaLight text-base"
+                      className="text-[#DEEAF9] font-light font-helveticaLight text-base after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#DEEAF9] after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full"
                     >
                       New Features
                     </a>
@@ -113,7 +113,7 @@ const MyFooter = () => {
                   <li className="pt-4">
                     <a
                       href="#testimonials"
-                      className="text-[#DEEAF9] font-light font-helveticaLight text-base"
+                      className="text-[#DEEAF9] font-light font-helveticaLight text-base after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#DEEAF9] after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full"
                     >
                       Testimonials
                     </a>
@@ -121,7 +121,7 @@ const MyFooter = () => {
                   <li className="pt-2">
                     <a
                       href="#faq"
-                      className="text-[#DEEAF9] font-light font-helveticaLight text-base"
+                      className="text-[#DEEAF9] font-light font-helveticaLight text-base after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#DEEAF9] after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full"
                     >
                       FAQs
                     </a>
@@ -129,7 +129,7 @@ const MyFooter = () => {
                   <li className="pt-2">
                     <a
                       href="#contact"
-                      className="text-[#DEEAF9] font-light font-helveticaLight text-base"
+                      className="text-[#DEEAF9] font-light font-helveticaLight text-base after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#DEEAF9] after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full"
                     >
                       Contact Us
                     </a>
