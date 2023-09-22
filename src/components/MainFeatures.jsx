@@ -13,39 +13,35 @@ const MainFeatures = () => {
             <div className="lg:w-[50%] w-full lg:mt-0 mt-12">
               <div className="flex items-center sm:flex-row flex-col justify-center gap-8">
                 <div className="sm:w-1/2 w-full ">
-                  <div
-                    className="w-[90%] sm:w-full mx-auto sm:mx-0 hover:shadow-2xl hover:scale-95 transition-all duration-300"
-                    data-aos="fade-down"
-                    data-aos-delay="500"
-                  >
-                    <div className="bg-[#fff] rounded-[14px] shadow_box px-4 py-5">
-                      <img src={clients_icon} alt="client icon" />
-                      <p className="font-roboto text-xl font-medium text-[#12191F]">
-                        Clients & Pets
-                      </p>
-                      <p className="pt-2 font-helveticaLight text-sm md:text-base text-[#12191F]">
-                        Managing your Clients and their Pets is effortless;
-                        Record their details, add emergency contacts, Medical
-                        Notes, Grooming notes, view their appointment history,
-                        set alerts and much more…
-                      </p>
+                  <div data-aos="fade-down" data-aos-delay="500">
+                    <div className="w-[90%] sm:w-full mx-auto sm:mx-0 hover:shadow-2xl hover:scale-95 transition-all duration-300 rounded-[14px]">
+                      <div className="bg-[#fff] rounded-[14px] shadow_box px-4 py-5">
+                        <img src={clients_icon} alt="client icon" />
+                        <p className="font-roboto text-xl font-medium text-[#12191F]">
+                          Clients & Pets
+                        </p>
+                        <p className="pt-2 font-helveticaLight text-sm md:text-base text-[#12191F]">
+                          Managing your Clients and their Pets is effortless;
+                          Record their details, add emergency contacts, Medical
+                          Notes, Grooming notes, view their appointment history,
+                          set alerts and much more…
+                        </p>
+                      </div>
                     </div>
                   </div>
-                  <div
-                    className="w-[90%] sm:w-full mt-8 mx-auto sm:mx-0 hover:shadow-2xl hover:scale-95 transition-all duration-300"
-                    data-aos="fade-up"
-                    data-aos-delay="500"
-                  >
-                    <div className="bg-[#fff] rounded-[14px] shadow_box px-4 py-5">
-                      <img src={notification_icon} alt="notification icon" />
-                      <p className="font-roboto text-xl font-medium text-[#12191F]">
-                        Notifications & Reminders
-                      </p>
-                      <p className="pt-2 font-helveticaLight text-sm md:text-base text-[#12191F]">
-                        We’ll take the strain by automatically sending your
-                        Clients, their appointment reminders, confirmations,
-                        ‘Miss You’s and No Shows, by text or email.
-                      </p>
+                  <div data-aos="fade-up" data-aos-delay="500">
+                    <div className="w-[90%] sm:w-full mt-8 mx-auto sm:mx-0 hover:shadow-2xl hover:scale-95 transition-all duration-300 rounded-[14px]">
+                      <div className="bg-[#fff] rounded-[14px] shadow_box px-4 py-5">
+                        <img src={notification_icon} alt="notification icon" />
+                        <p className="font-roboto text-xl font-medium text-[#12191F]">
+                          Notifications & Reminders
+                        </p>
+                        <p className="pt-2 font-helveticaLight text-sm md:text-base text-[#12191F]">
+                          We’ll take the strain by automatically sending your
+                          Clients, their appointment reminders, confirmations,
+                          ‘Miss You’s and No Shows, by text or email.
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -54,7 +50,7 @@ const MainFeatures = () => {
                   data-aos="fade-up-left"
                   data-aos-delay="500"
                 >
-                  <div className="w-[90%]  sm:w-full mx-auto sm:mx-0 hover:shadow-2xl hover:scale-95 transition-all duration-300">
+                  <div className="w-[90%]  sm:w-full mx-auto sm:mx-0 hover:shadow-2xl hover:scale-95 transition-all duration-300 rounded-[14px]">
                     <div className="bg-[#fff] rounded-[14px] shadow_box pt-5 pl-4 pr-10 pb-11">
                       <img src={schedule_icon} alt="schedule icon" />
                       <p className="font-roboto text-xl font-medium text-[#12191F]">
