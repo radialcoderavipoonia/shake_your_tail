@@ -5,7 +5,7 @@ import app_store from "../assets/images/webp/app_store.webp";
 const DownloadApp = () => {
   return (
     <>
-      <section className="pt-12 lg:pt-16 lg:pt-[135px] bg-[#FFC100] lg:bg-transparent">
+      <section className="pt-12 lg:pt-[135px] bg-[#FFC100] lg:bg-transparent">
         <div className="container">
           <div className="flex flex-wrap justify-between items-center">
             <div className="md:w-2/5 z-10 w-full">
