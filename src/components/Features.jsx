@@ -17,7 +17,7 @@ const Features = () => {
             {Feature.map((All) => {
               return (
                 <div
-                  className="lg:w-[23%] mx-2 sm:w-[46%]  mb-8 px-5 pt-5 pb-[34px] bg-[#fff] rounded-[14px]"
+                  className="lg:w-[23%] mx-2 sm:w-[46%]  mb-8 px-5 pt-5 pb-[34px] bg-[#fff] rounded-[14px] hover:translate-y-[-10px] transition-all duration-300"
                   key={All.id}
                 >
                   <div className="h-100">

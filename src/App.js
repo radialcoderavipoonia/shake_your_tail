@@ -56,7 +56,7 @@ function App() {
         <div className="relative mt-5 lg:mt-20">
           <div className="absolute lg:block hidden">
             <img
-              className="w-[2452px] lg:h-[1235px] xl:h-[1360px] "
+              className="w-[2452px] lg:h-[1360px] xl:h-[1420px]"
               src={Yellow_bg}
               alt="Yellow_bg"
             />
