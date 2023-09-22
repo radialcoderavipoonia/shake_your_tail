@@ -38,12 +38,12 @@ const PricingPlan = () => {
             </p>
           </div>
           <div className="overflow-x-scroll xl:overflow-x-auto">
-            <div className="flex flex-wrap justify-between pt-10 sm:pt-14 md:pt-[68px] w-[1140px] ">
+            <div className="flex flex-wrap justify-between pt-10 sm:pt-14 md:pt-[48px] w-[1140px] ">
               {Pricing.map((plan) => {
                 return (
                   <div
                     key={plan.id}
-                    className="w-[23%] mb-4 mx-2 py-[33px] px-[18px] shadow_pricing rounded-[8px] group overflow-hidden relative hover:transition-all hover:duration-150"
+                    className="w-[23%] mb-4 mx-2 py-[33px] px-[18px] shadow_pricing rounded-[8px] group overflow-hidden relative hover:transition-all hover:duration-500"
                   >
                     <div className="h-full">
                       <div className="flex flex-col justify-between h-full">
@@ -145,7 +145,7 @@ const PricingPlan = () => {
                         </div>
                       </div>
                     </div>
-                    <div className={`bg-[#FFC100] group-hover:bg-[#5B95E0] group-hover:transition-all group-hover:duration-150 absolute top-[30px] hidden right-[-40px] rotate-45 ${plan.include}`}>
+                    <div className={`bg-[#FFC100] group-hover:bg-[#5B95E0] group-hover:transition-all group-hover:duration-500 absolute top-[30px] hidden right-[-40px] rotate-45 ${plan.include}`}>
                       <p className="text-[10.44px] w-[166px] text-center font-helveticaMedium text-white py-1">
                         SMS Included
                       </p>

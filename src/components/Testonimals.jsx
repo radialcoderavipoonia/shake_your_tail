@@ -15,7 +15,7 @@ const Testonimals = () => {
   const first = React.useRef();
   return (
     <>
-      <section className="py-14 lg:py-10 lg:mt-28 xl:mt-[206px]" id="testimonials">
+      <section className="py-14 lg:py-10 lg:mt-28 xl:mt-[140px]" id="testimonials">
         <div className="container">
           <h2 className="text-center font-roboto font-medium text-black text-4xl md:text-5xl">
             Testimonial

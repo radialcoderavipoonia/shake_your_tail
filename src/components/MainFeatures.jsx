@@ -16,7 +16,7 @@ const MainFeatures = () => {
                   <div className="w-[90%] sm:w-full mx-auto sm:mx-0 hover:shadow-2xl hover:scale-95 transition-all duration-300">
                     <div className="bg-[#fff] rounded-[14px] shadow_box px-4 py-5">
                       <img src={clients_icon} alt="client icon" />
-                      <p className="pt-5 font-roboto text-xl font-medium text-[#12191F]">
+                      <p className="font-roboto text-xl font-medium text-[#12191F]">
                         Clients & Pets
                       </p>
                       <p className="pt-2 font-helveticaLight text-sm md:text-base text-[#12191F]">
@@ -30,7 +30,7 @@ const MainFeatures = () => {
                   <div className="w-[90%] sm:w-full mt-8 mx-auto sm:mx-0 hover:shadow-2xl hover:scale-95 transition-all duration-300">
                     <div className="bg-[#fff] rounded-[14px] shadow_box px-4 py-5">
                       <img src={notification_icon} alt="notification icon" />
-                      <p className="pt-5 font-roboto text-xl font-medium text-[#12191F]">
+                      <p className="font-roboto text-xl font-medium text-[#12191F]">
                         Notifications & Reminders
                       </p>
                       <p className="pt-2 font-helveticaLight text-sm md:text-base text-[#12191F]">
@@ -45,7 +45,7 @@ const MainFeatures = () => {
                   <div className="w-[90%]  sm:w-full mx-auto sm:mx-0 hover:shadow-2xl hover:scale-95 transition-all duration-300">
                     <div className="bg-[#fff] rounded-[14px] shadow_box pt-5 pl-4 pr-10 pb-11">
                       <img src={schedule_icon} alt="schedule icon" />
-                      <p className="pt-5 font-roboto text-xl font-medium text-[#12191F]">
+                      <p className=" font-roboto text-xl font-medium text-[#12191F]">
                         Schedule
                       </p>
                       <p className="pt-2 font-helveticaLight text-sm md:text-base text-[#12191F]">

@@ -18,7 +18,7 @@ const Faq = () => {
                       Do you have a mobile app?
                     </Accordion.Title>
                     <Accordion.Content className="py-0 pt-3 ps-0">
-                      <p className="font-light font-helveticaLight text-base text-[#454253]">
+                      <p className="font-light font-helveticaLight text-base text-center text-[#454253]">
                         Yes, our mobile app is available to premier and premier
                         plus subscribers, allowing you to manage your business
                         on the go.

@@ -1,9 +1,13 @@
 import React from "react";
 import { Feature } from "./common/Helper";
+import bottom_img from "../assets/images/svg/feature_card_bottom.svg"
 const Features = () => {
   return (
     <>
-      <section className="pb-14 lg:pb-36 xl:pt-24 lg:pt-0 pt-12 relative z-10 bg-[#5B95E0] lg:bg-transparent"id="features">
+      <section
+        className="pb-14 lg:pb-36 xl:pt-24 lg:pt-0 pt-12 relative z-10 bg-[#5B95E0] lg:bg-transparent"
+        id="features"
+      >
         <div className="container">
           <h2 className="text-white text-3xl md:text-4xl lg:text-5xl font-roboto font-medium text-center">
             Features
@@ -16,7 +20,7 @@ const Features = () => {
             {Feature.map((All) => {
               return (
                 <div
-                  className="lg:w-[23%] mx-2 sm:w-[46%]  mb-8 px-5 pt-5 pb-[34px] bg-[#fff] rounded-[14px] hover:translate-y-[-10px] transition-all duration-300"
+                  className="lg:w-[23%] mx-2 sm:w-[46%]  mb-8 px-5 pt-5 pb-[34px] bg-[#fff] rounded-[14px] hover:translate-y-[-10px] transition-all duration-300 overflow-hidden relative"
                   key={All.id}
                 >
                   <div className="h-100">
@@ -27,6 +31,9 @@ const Features = () => {
                     <p className="pt-2 text-base text-[#12191F] text-opacity-70">
                       {All.para}
                     </p>
+                  </div>
+                  <div className={`${All.hidden} hidden absolute bottom-[-20px] right-[-10px]`}>
+                    <img src={bottom_img} alt="bottom image" />
                   </div>
                 </div>
               );

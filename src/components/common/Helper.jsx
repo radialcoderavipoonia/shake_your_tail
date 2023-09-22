@@ -136,6 +136,7 @@ export const Feature = [
     heading: "Clients & Pets",
     para: "Managing your Clients is effortless; Record Client details, view appointment history, breed, photos, medical notes, vet contact, groom note Client loyalty and more.",
     img: clients,
+    hidden:"!block"
   },
   {
     id: 3,
