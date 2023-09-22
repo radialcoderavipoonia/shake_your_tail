@@ -27,13 +27,13 @@ const AboutUs = () => {
             {About_us.map((aboutK) => {
               return (
                 <div
-                  className="w-[90%] mx-auto lg:mt-0 sm:mx-0 sm:w-[48%] md:w-[32%] lg:w-[24%] px-5 pt-5 pb-[34px] bg-[#fff] rounded-[14px] relative min-h-full"
+                  className="w-[90%] mx-auto lg:mt-0 sm:mx-0 sm:w-[48%] md:w-[32%] lg:w-[24%] px-5 pt-5 pb-[34px] bg-[#fff] rounded-[14px] relative min-h-full hover:translate-y-[-10px] transition-all duration-300"
                   key={aboutK.id}
                 >
                   <div
                     className={"absolute bottom-0 right-0 ${aboutK.bottom_img}"}
                   >
-                    <img src={aboutK.bootom} alt="" />
+                    <img src={aboutK.bootom} />
                   </div>
                   <img
                     className="max-w-[48px]"

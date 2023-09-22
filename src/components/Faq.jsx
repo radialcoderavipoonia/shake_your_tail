@@ -11,7 +11,7 @@ const Faq = () => {
           </h2>
           <div className="flex flex-wrap mt-11 flex-col-reverse lg:flex-row">
             <div className=" lg:w-7/12">
-              <div className="me-10 mt-5 sm:mt-8 md:mt-10 lg:mt-0">
+              <div className="me-10 mt-5 sm:mt-8 md:mt-10 lg:mt-0 w-full lg:w-auto">
                 <Accordion className="border-none">
                   <Accordion.Panel>
                     <Accordion.Title className="text-[#454253] text-xl font-helveticaMedium font-medium pb-0 ps-0 text-start">

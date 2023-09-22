@@ -13,7 +13,7 @@ const MainFeatures = () => {
             <div className="lg:w-[50%] w-full lg:mt-0 mt-12">
               <div className="flex items-center sm:flex-row flex-col justify-center gap-8">
                 <div className="sm:w-1/2 w-full ">
-                  <div className="w-[90%] sm:w-full mx-auto sm:mx-0">
+                  <div className="w-[90%] sm:w-full mx-auto sm:mx-0 hover:shadow-2xl hover:scale-95 transition-all duration-300">
                     <div className="bg-[#fff] rounded-[14px] shadow_box px-4 py-5">
                       <img src={clients_icon} alt="client icon" />
                       <p className="pt-5 font-roboto text-xl font-medium text-[#12191F]">
@@ -27,7 +27,7 @@ const MainFeatures = () => {
                       </p>
                     </div>
                   </div>
-                  <div className="w-[90%] sm:w-full mt-8 mx-auto sm:mx-0">
+                  <div className="w-[90%] sm:w-full mt-8 mx-auto sm:mx-0 hover:shadow-2xl hover:scale-95 transition-all duration-300">
                     <div className="bg-[#fff] rounded-[14px] shadow_box px-4 py-5">
                       <img src={notification_icon} alt="notification icon" />
                       <p className="pt-5 font-roboto text-xl font-medium text-[#12191F]">
@@ -42,7 +42,7 @@ const MainFeatures = () => {
                   </div>
                 </div>
                 <div className="sm:w-1/2 w-full relative ">
-                  <div className="w-[90%]  sm:w-full mx-auto sm:mx-0">
+                  <div className="w-[90%]  sm:w-full mx-auto sm:mx-0 hover:shadow-2xl hover:scale-95 transition-all duration-300">
                     <div className="bg-[#fff] rounded-[14px] shadow_box pt-5 pl-4 pr-10 pb-11">
                       <img src={schedule_icon} alt="schedule icon" />
                       <p className="pt-5 font-roboto text-xl font-medium text-[#12191F]">
