@@ -13,9 +13,9 @@ const Faq = () => {
           >
             FAQ’s
           </h2>
-          <div className="flex flex-wrap mt-11 flex-col-reverse lg:flex-row">
+          <div className="flex flex-wrap mt-11">
             <div className="lg:w-7/12">
-              <div className="me-10 mt-5 sm:mt-8 md:mt-10 lg:mt-0 w-full lg:w-auto">
+              <div className="me-10 w-full lg:w-auto">
                 <Accordion
                   className="border-none"
                   data-aos="fade-down"
@@ -90,11 +90,11 @@ const Faq = () => {
               </div>
             </div>
             <div
-              className="lg:w-5/12"
+              className="lg:w-5/12 w-full"
               data-aos="fade-down-left"
               data-aos-delay="500"
             >
-              <div className="flex justify-center">
+              <div className="flex justify-center mt-5 sm:mt-8 md:mt-10 lg:mt-0">
                 <div className="bg-[#FFF9E6] rounded-xl inline-block border border-[1px] border-[#FFDD73]">
                   <div className="py-11 px-11 text-center">
                     <h2 className="font-medium font-roboto text-[32px] text-[#12191F]">
