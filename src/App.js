@@ -28,7 +28,7 @@ function App() {
   return (
     <>
       <div className="bg-[#fff] overflow-hidden">
-        {/* <Preloader /> */}
+        <Preloader />
         <div className="relative bgHero bg-no-repeat lg:bg-transparent bg-[#FFC100]">
           <Hero />
           <div>
