@@ -12,9 +12,11 @@ const CustomerExperience = () => {
           <div className="flex flex-wrap md:justify-between justify-center items-center">
             <div className="md:w-[40%]">
               <div className="text-center md:text-start mx-auto max-w-[550px]">
-                <h2 className="text-3xl lg:text-5xl font-roboto !font-medium text-[#12191F]" data-aos="fade-down"
-                  data-aos-delay="400">
-            
+                <h2
+                  className="text-3xl lg:text-5xl font-roboto !font-medium text-[#12191F]"
+                  data-aos="fade-down"
+                  data-aos-delay="400"
+                >
                   Let Your Customer Experience Shine
                 </h2>
                 <p
@@ -28,7 +30,7 @@ const CustomerExperience = () => {
                   program.
                 </p>
                 <button
-                  className="mt-5 lg:mt-[30px] text-white font-roboto font-regular text-lg md:text-xl bg-[#FFC100] px-[30px] py-3 lg:py-[14px] rounded-[100px] hover:bg-[#5B95E0] transition-all duration-300"
+                  className="mt-5 lg:mt-[30px] leading-normal text-white font-roboto font-regular text-lg md:text-xl bg-[#FFC100] px-[30px] py-3 lg:py-[14px] rounded-[100px] hover:bg-[#5B95E0] transition-all duration-300"
                   data-aos="fade-down"
                   data-aos-delay="600"
                 >

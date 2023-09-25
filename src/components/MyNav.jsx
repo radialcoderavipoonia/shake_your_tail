@@ -63,7 +63,7 @@ export const MyNav = () => {
               </a>
             </li>
             <li>
-              <button className="font-roboto flex items-start justify-center text-xl py-[14px] px-[30px] bg-[#5B95E0] rounded-full text-white hover:bg-[#FFC100] transition-all duration-300">
+              <button className="font-roboto leading-normal flex items-start justify-center text-xl py-[14px] px-[30px] bg-[#5B95E0] rounded-full text-white hover:bg-[#FFC100] transition-all duration-300">
                 Sign In
               </button>
             </li>

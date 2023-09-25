@@ -42,7 +42,9 @@ const Features = () => {
                       {All.para}
                     </p>
                   </div>
-                  <div className={`${All.hidden} hidden absolute bottom-[-20px] right-[-10px]`}>
+                  <div
+                    className={`${All.hidden} hidden absolute bottom-[-20px] right-[-10px]`}
+                  >
                     <img src={bottom_img} alt="bottom image" />
                   </div>
                 </div>
@@ -54,7 +56,7 @@ const Features = () => {
             data-aos="fade-up"
             data-aos-delay="500"
           >
-            <button className="text-white font-roboto font-regular text-xl md:text-xl bg-[#FFC100] px-[30px] py-[14px] rounded-[100px] hover:bg-white transition-all duration-300 hover:text-[#FFC100]">
+            <button className="text-white leading-normal font-roboto font-regular text-xl md:text-xl bg-[#FFC100] px-[30px] py-[14px] rounded-[100px] hover:bg-white transition-all duration-300 hover:text-[#FFC100]">
               View All Features
             </button>
           </div>

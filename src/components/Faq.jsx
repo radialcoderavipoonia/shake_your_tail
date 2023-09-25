@@ -95,7 +95,7 @@ const Faq = () => {
               data-aos-delay="500"
             >
               <div className="flex justify-center">
-                <div className="bg-[#FFF9E6] rounded-xl inline-block border border-[1px] border-[#FFDD73]">
+                <div className="bg-[#FFF9E6] rounded-xl inline-block  border-[1px] border-[#FFDD73]">
                   <div className="py-11 px-11 text-center">
                     <h2 className="font-medium font-roboto text-[32px] text-[#12191F]">
                       Need help?
@@ -107,7 +107,7 @@ const Faq = () => {
                       <span>
                         <Bulp />
                       </span>
-                      <span className="text-white font-roboto font-normal text-xl ps-[10px]">
+                      <span className="text-white leading-normal font-roboto font-normal text-xl ps-[10px]">
                         New Idea?
                       </span>
                     </button>
@@ -115,7 +115,7 @@ const Faq = () => {
                       <span>
                         <Massage />
                       </span>
-                      <span className="text-white font-roboto font-normal text-xl ps-[10px]">
+                      <span className="text-white leading-normal font-roboto font-normal text-xl ps-[10px]">
                         Contact Us
                       </span>
                     </button>

@@ -12,12 +12,12 @@ const MainFeatures = () => {
           <div className="flex flex-wrap justify-between lg:flex-row flex-col-reverse items-center">
             <div className="lg:w-[50%] w-full lg:mt-0 mt-12">
               <div className="flex items-center sm:flex-row flex-col justify-center gap-8">
-                <div className="sm:w-1/2 w-full ">
-                  <div
-                    className="w-[90%] sm:w-full mx-auto sm:mx-0 hover:shadow-2xl hover:scale-95 transition-all duration-300"
-                    data-aos="fade-down"
-                    data-aos-delay="500"
-                  >
+                <div
+                  className="sm:w-1/2 w-full "
+                  data-aos="fade-down"
+                  data-aos-delay="500"
+                >
+                  <div className="w-[90%] sm:w-full mx-auto sm:mx-0 hover:shadow-2xl hover:scale-90 transition-all duration-300">
                     <div className="bg-[#fff] rounded-[14px] shadow_box px-4 py-5">
                       <img src={clients_icon} alt="client icon" />
                       <p className="font-roboto text-xl font-medium text-[#12191F]">
@@ -32,11 +32,10 @@ const MainFeatures = () => {
                     </div>
                   </div>
                   <div
-                    className="w-[90%] sm:w-full mt-8 mx-auto sm:mx-0 hover:shadow-2xl hover:scale-95 transition-all duration-300"
-                    data-aos="fade-up"
-                    data-aos-delay="500"
+                    className="w-[90%] sm:w-full mt-8 mx-auto sm:mx-0 hover:shadow-2xl hover:scale-90 transition-all duration-300"
+                    
                   >
-                    <div className="bg-[#fff] rounded-[14px] shadow_box px-4 py-5">
+                    <div className="bg-[#fff] shadow_box px-4 rounded-[14px] py-5">
                       <img src={notification_icon} alt="notification icon" />
                       <p className="font-roboto text-xl font-medium text-[#12191F]">
                         Notifications & Reminders
@@ -50,12 +49,12 @@ const MainFeatures = () => {
                   </div>
                 </div>
                 <div
-                  className="sm:w-1/2 w-full relative "
+                  className="sm:w-1/2 w-full relative"
                   data-aos="fade-up-left"
                   data-aos-delay="500"
                 >
-                  <div className="w-[90%]  sm:w-full mx-auto sm:mx-0 hover:shadow-2xl hover:scale-95 transition-all duration-300">
-                    <div className="bg-[#fff] rounded-[14px] shadow_box pt-5 pl-4 pr-10 pb-11">
+                  <div className="w-[90%] sm:w-full mx-auto sm:mx-0 hover:shadow-2xl hover:scale-90 transition-all duration-300">
+                    <div className="bg-[#fff] shadow_box rounded-[14px] pt-5 pl-4 pr-10 pb-11">
                       <img src={schedule_icon} alt="schedule icon" />
                       <p className="font-roboto text-xl font-medium text-[#12191F]">
                         Schedule

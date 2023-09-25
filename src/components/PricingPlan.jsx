@@ -1,13 +1,20 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import { Pricing } from "./common/Helper";
+import { Ourcontext } from "./MyContent";
 const PricingPlan = () => {
   const [isChecked, setIsChecked] = useState(false);
 
   const toggle = () => {
     setIsChecked(!isChecked);
   };
+  const { first, setFirst } = useContext(Ourcontext);
+  console.log(first);
+  function toogle() {
+    setFirst(true);
+  }
   return (
     <>
+      <button onClick={toogle}>rhjef</button>
       <section className="py-14" id="pricing">
         <div className="container">
           <h2
@@ -152,7 +159,7 @@ const PricingPlan = () => {
                             {plan.sms}
                           </p>
                         </div>
-                        <div className="flex items-end justify-center pt-[33px] mx-4">
+                        <div className="flex items-end leading-normal justify-center pt-[33px] mx-4">
                           <button className="text-xl font-roboto font-regular w-full group-hover:text-[#fff] group-hover:bg-[#5B95E0] group-hover:border-transparent transition-all duration-500 text-[#12191F] rounded-[100px] py-3 px-[30px] bg-transparent border border-[#898C8F]">
                             Get Started
                           </button>

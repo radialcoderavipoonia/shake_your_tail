@@ -11,7 +11,7 @@ const MyFooter = () => {
   return (
     <>
       <section className="pt-4 lg:pt-0">
-        <div className="footer_bg_img min-h-[150px] min-h-[140px] md:min-h-[180px] xl:min-h-[264px]"></div>
+        <div className="footer_bg_img min-h-[150px] md:min-h-[180px] xl:min-h-[264px]"></div>
       </section>
       <section className="bg-[#5B95E0] mt-[-80px] md:mt-[-3px]">
         <div className="container">

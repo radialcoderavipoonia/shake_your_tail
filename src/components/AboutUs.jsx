@@ -72,7 +72,7 @@ const AboutUs = () => {
           </div>
           <div className="text-center mt-10 xl:mt-14 pb-16 lg:pb-[97px]">
             <button
-              className="bg-[#5B95E0] font-normal font-roboto text-xl text-white rounded-full px-10 py-[14px] hover:text-[#5B95E0] hover:bg-white transition-all duration-300"
+              className="bg-[#5B95E0] font-normal leading-normal font-roboto text-xl text-white rounded-full px-10 py-[14px] hover:text-[#5B95E0] hover:bg-white transition-all duration-300"
               data-aos="fade-down-right"
               data-aos-delay="500"
             >
